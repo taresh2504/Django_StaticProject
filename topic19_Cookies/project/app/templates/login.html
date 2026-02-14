@@ -1,0 +1,40 @@
+{% extends "base.html" %} 
+
+{% block title %}
+<title>Login Page</title>
+{% endblock title %} 
+
+{% block content %}
+<a href="{% url 'registration' %}"><button>set_cookie</button></a>
+<br>
+<br>
+<button><a href="{% url 'get_cookie' %}">get_cookie</a></button>
+<br>
+
+{{name}}
+<br>
+{{email}}
+<br>
+{{contact}}
+<br>
+{{password}}
+<br>
+{{photo}}
+<br>
+{{audio}}
+<br>
+{{video}}
+<br>
+{{resume}}
+<br>
+{{gender}}
+<br>
+{{qualification}}
+<br>
+{{state}}
+
+<br>
+<a href="{% url 'delete_cookie' %}">delete_cookie</a>
+
+<h1>Login Page</h1>
+{% endblock content %} 

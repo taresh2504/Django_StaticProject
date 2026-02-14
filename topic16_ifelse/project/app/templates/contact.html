@@ -1,0 +1,67 @@
+<!-- this is contact page 
+ {{data}} -->
+
+{% comment %} {{xyz}} {% endcomment %}
+
+{% comment %} {% for i in xyz  %}
+    {{forloop.counter}}.{{i.name}} {{i.email}} <br> 
+{% endfor %} 
+
+<table>
+    <thead>
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+
+    {% for i in xyz %}
+    <tr>
+        <td>{{forloop.counter}}</td>
+        <td>{{i.name}}</td>
+        <td>{{i.email}}</td>
+        <td><button type="submit"><a href="">Edit</a></button></td>
+        <td><a href=""><button>Delete</button></a></td>
+    </tr>
+    {% endfor %}
+</table>  {% endcomment %}
+
+
+<!-- DTL filter -->
+ {% comment %} 1. {{data.name}}
+<br>
+ 2. {{data.name|lower}}
+ <br>
+ 3. {{data.name|upper}}
+ <br>
+ 4. {{data.name|capfirst}}
+ <br>
+ 5. {{data.name|length}}
+ <br>
+ 6. <pre>{{data.name|center:"50"}}</pre>
+ <br>
+ 7. <pre>{{data.name|ljust:"50"}}</pre>
+ <br>
+ 8. <pre>{{data.name|rjust:"50"}}</pre>
+ <br>
+ 9. {{data.name|wordcount}}
+ <br>
+ 10. {{data.demo|truncatechars:'5'}}
+ <br>
+ 11. {{data.demo|truncatewords:'3'}}
+ <br>
+ 12. {{data.demo|cut:" "}}
+ <br>
+ 13. {{data.demo|cut:"is"}}
+ <br>
+ 14. {{data.l|join:" "}}
+ <br>
+ 15. {{data.l|join:""}}
+ <br>
+ 16. {{data.name|slice:"2:3"}}
+
+ 
+  {% endcomment %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+<title>Home</title>
+{% endblock %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/home.css'  %}">
+{% endblock css %}
+
+{% block content %}
+<h1 >Home Page</h1>
+<h1 class="home2">Home Page is working</h1>
+{% include "subbase.html" %} 
+{% endblock %}

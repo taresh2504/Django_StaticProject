@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+
+{% block title %}
+<title>Login Page</title>
+{% endblock title %}
+
+{% block content %}
+<a href="{% url 'get_cookie' %}">get_cookie</a>
+<br>
+<a href="{% url 'delete_cookie' %}">delete_cookie</a>
+
+<form action="">
+    {% comment %} <label for="">Email</label>
+    <input type="email" placeholder="Enter Email" name="" id="">
+    <br>
+    <br>
+    <label for="">Password</label>
+    <input type="password" placeholder="Enter password" name="" id="">
+    <br>
+    <br>
+    <a href="#">Login</a> {% endcomment %}
+</form>
+{% endblock content %} 

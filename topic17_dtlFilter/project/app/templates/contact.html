@@ -1,0 +1,43 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h1>Contact page</h1>
+{{info.name}}
+<br>
+{% comment %} {{xyz}} {% endcomment %}
+<br>
+<!-- DTL filter -->
+ 1. {{info.name}}
+<br>
+ 2. {{info.name|lower}}
+ <br>
+ 3. {{info.name|upper}}
+ <br>
+ 4. {{info.name|capfirst}}
+ <br>
+ 5. {{info.name|length}}
+ <br>
+ 6. <pre>{{info.name|center:"50"}}</pre>
+ <br>
+ 7. <pre>{{info.name|ljust:"50"}}</pre>
+ <br>
+ 8. <pre>{{info.name|rjust:"50"}}</pre>
+ <br>
+ 9. {{info.name|wordcount}}
+ <br>
+ 10. {{info.demo|truncatechars:'5'}}
+ <br>
+ 11. {{info.demo|truncatewords:'3'}}
+ <br>
+ 12. {{info.demo|cut:" "}}
+ <br>
+ 13. {{info.demo|cut:"is"}}
+ <br>
+ 14. {{info.l|join:" "}}
+ <br>
+ 15. {{info.l|join:""}}
+ <br>
+ 16. {{info.name|slice:"2:3"}}
+
+{% endblock content %} 
+

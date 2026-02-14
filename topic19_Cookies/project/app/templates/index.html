@@ -1,0 +1,17 @@
+{% extends "base.html" %} 
+
+{% block title %}
+<title>Index Page</title>
+{% endblock title %}
+
+{% block content %}
+
+<a href="{% url 'registration' %}"><button>set_cookie</button></a>
+<br>
+<br>
+<button><a href="">get_cookie</a></button>
+<br>
+<br>
+<a href="">delete_cookie</a>
+
+{% endblock content %}

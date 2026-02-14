@@ -1,0 +1,143 @@
+{% extends "landing.html" %}
+
+{% block title %}
+<title>Register page</title>
+{% endblock title %}
+
+{% block content %}
+
+<h1>Register Page</h1>
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+
+            <div class="card shadow p-4">
+                <h3 class="text-center mb-4">User Registration</h3>
+
+                <form action="{% url 'sqlitedata' %}" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+
+                    <!-- Name -->
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" class="form-control" name="name" placeholder="Enter name">
+                    </div>
+
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" name="email" placeholder="Enter email">
+                    </div>
+
+                    <!-- Contact -->
+                    <div class="mb-3">
+                        <label class="form-label">Contact</label>
+                        <input type="number" class="form-control" name="contact" placeholder="Enter contact number">
+                    </div>
+
+                    <!-- Password -->
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control" name="password" placeholder="Enter password">
+                    </div>
+
+                    <!-- Profile Photo -->
+                    <div class="mb-3">
+                        <label class="form-label">Profile Photo</label>
+                        <input type="file" class="form-control" name="photo" accept=".jpg,.png">
+                    </div>
+
+                    <!-- Audio -->
+                    <div class="mb-3">
+                        <label class="form-label">Audio</label>
+                        <input type="file" class="form-control" name="audio" accept=".mp3">
+                    </div>
+
+                    <!-- Video -->
+                    <div class="mb-3">
+                        <label class="form-label">Video</label>
+                        <input type="file" class="form-control" name="video" accept=".mp4">
+                    </div>
+
+                    <!-- Resume -->
+                    <div class="mb-3">
+                        <label class="form-label">Resume</label>
+                        <input type="file" class="form-control" name="resume" accept=".pdf">
+                    </div>
+
+                    <!-- State -->
+                    <div class="mb-3">
+                        <label class="form-label">State</label>
+                        <select class="form-select" name="state">
+                            <option value="">Select State</option>
+                            <option value="MP">M.P</option>
+                            <option value="UP">U.P</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Gujrat">Gujrat</option>
+                        </select>
+                    </div>
+
+                    <!-- Gender -->
+                    <div class="mb-3">
+                        <label class="form-label d-block">Gender</label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" value="Male">
+                            <label class="form-check-label">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" value="Female">
+                            <label class="form-check-label">Female</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" value="Other">
+                            <label class="form-check-label">Other</label>
+                        </div>
+                    </div>
+
+                    <!-- Qualification -->
+                    <div class="mb-4">
+                        <label class="form-label d-block">Qualification</label>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="qualification" value="10th">
+                            <label class="form-check-label">10th</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="qualification" value="12th">
+                            <label class="form-check-label">12th</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="qualification" value="UG">
+                            <label class="form-check-label">U.G</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="qualification" value="PG">
+                            <label class="form-check-label">P.G</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="checkbox" name="qualification" value="PHD">
+                            <label class="form-check-label">PHD</label>
+                        </div>
+                    </div>
+
+                    <!-- Submit -->
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            Register
+                        </button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+{% endblock content %}

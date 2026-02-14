@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+    {% endblock title %}
+
+    {% block css %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% endblock css %}
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="navbar-container">
+            <header>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="" class="list">Shop By Category</a></li>
+                        <li><a href="" class="list">Shop By Collection</a></li>
+                        <li><a href="" class="list">Sale</a></li>
+                        <li><a href="" class="list">Policy</a></li>
+                        <li><a href="" class="list">Fit Guide</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+        <div class="nav-logo">
+            <img src="{% static 'images/overlays-logo.jpg' %}" alt="logo">
+        </div>
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+
+</html>

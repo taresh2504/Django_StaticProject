@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock css %}
+
+{% block title %}
+<title>Home Page</title>
+{% endblock title %} 
+
+{% block content %}
+<h1>home page</h1>
+<h2 class="img">image</h2>
+<img src="{% static '/images/train1.jpg' %}" height="250px" width="500px" alt="">
+<br>
+<h2 id="vid">video</h2>
+<video src="{% static '/videos/HBT_Song.mp4' %}" controls height="250px" width="250px"></video>
+<h2>audio</h2>
+<audio src="{% static '/audios/KGF_BGM.mp3'%}" controls></audio>
+<br>
+<input type="submit" onclick="fun1()" id="btn" value="click-here">
+{% endblock content %}
+
+{% block script %}
+    <script src="{% static '/js/home.js' %}"></script>
+{% endblock script %}

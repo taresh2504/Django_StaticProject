@@ -1,0 +1,248 @@
+<div>
+    <div>
+        <div>
+        <button type="submit"><a href="{% url 'all' %}">All()</a></button><br><br>
+        <button type="submit"><a href="{% url 'filter' %}">Filter()</a></button><br><br>
+        <button type="submit"><a href="{% url 'order_by' %}">Order_by()</a></button><br><br>
+        <button type="submit"><a href="{% url 'Multi_filter' %}">Multi_filter()</a></button><br><br>
+        <button type="submit"><a href="{% url 'exclude' %}">Exclude()</a></button><br><br>
+        </div>
+        <div>
+        <button type="submit"><a href="{% url 'get' %}">Get()</a></button><br><br>
+        <button type="submit"><a href="{% url 'first' %}">First()</a></button><br><br>
+        <button type="submit"><a href="{% url 'last' %}">Last()</a></button><br><br>
+        <button type="submit"><a href="{% url 'earliest' %}">Earliest()</a></button><br><br>
+        <button type="submit"><a href="{% url 'latest' %}">Latest()</a></button><br><br> 
+        <button type="submit"><a href="{% url 'create' %}">Create()</a></button><br><br> 
+        <button type="submit"><a href="{% url 'b_create' %}">Bulk_Create()</a></button><br><br> 
+        <form action="{% url 'delete' %}" method="post">
+            {% csrf_token %}
+            <input type="number" name="number" id="">
+            <button type="submit">Delete()</button>
+        </form>
+        <br>
+        <form action="{% url 'm_delete' %}" method="post">
+            {% csrf_token %}
+            <input type="text" name="number1" id="">
+            <button type="submit">Multiple_Delete()</button>
+        </form> 
+    </div>
+    
+    <div>
+        {% if data %}
+            <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                {% for i in data %}
+                    <tbody>
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{i.Name}}</td>
+                            <td>{{i.Email}}</td>
+                            <td>{{i.Age}}</td>
+                            <td>{{i.City}}</td>
+                        </tr>
+                    </tbody>
+                {% endfor %} 
+            </table>
+
+        {% elif data1 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                {% for i in data1 %}
+                    <tbody>
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{i.Name}}</td>
+                            <td>{{i.Email}}</td>
+                            <td>{{i.Age}}</td>
+                            <td>{{i.City}}</td>
+                        </tr>
+                    </tbody>
+                {% endfor %} 
+            </table> 
+        
+        {% elif data2 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                {% for i in data2 %}
+                    <tbody>
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{i.Name}}</td>
+                            <td>{{i.Email}}</td>
+                            <td>{{i.Age}}</td>
+                            <td>{{i.City}}</td>
+                        </tr>
+                    </tbody>
+                {% endfor %} 
+            </table>  
+            
+        {% elif data3 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                {% for i in data3 %}
+                    <tbody>
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{i.Name}}</td>
+                            <td>{{i.Email}}</td>
+                            <td>{{i.Age}}</td>
+                            <td>{{i.City}}</td>
+                        </tr>
+                    </tbody>
+                {% endfor %} 
+            </table>
+
+        {% elif data4 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                {% for i in data4 %}
+                    <tbody>
+                        <tr>
+                            <td>{{forloop.counter}}</td>
+                            <td>{{i.Name}}</td>
+                            <td>{{i.Email}}</td>
+                            <td>{{i.Age}}</td>
+                            <td>{{i.City}}</td>
+                        </tr>
+                    </tbody>
+                {% endfor %} 
+            </table>
+            
+            {% elif data5 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>{{data5.Name}}</td>
+                            <td>{{data5.Email}}</td>
+                            <td>{{data5.Age}}</td>
+                            <td>{{data5.City}}</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+             {% elif data6 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>{{data6.Name}}</td>
+                            <td>{{data6.Email}}</td>
+                            <td>{{data6.Age}}</td>
+                            <td>{{data6.City}}</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+            {% elif data7 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>{{data7.Name}}</td>
+                            <td>{{data7.Email}}</td>
+                            <td>{{data7.Age}}</td>
+                            <td>{{data7.City}}</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+            {% elif data8 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>{{data8.Name}}</td>
+                            <td>{{data8.Email}}</td>
+                            <td>{{data8.Age}}</td>
+                            <td>{{data8.City}}</td>
+                        </tr>
+                    </tbody>
+            </table>
+
+             {% elif data9 %}
+        <table border="1">
+                <thead>
+                    <th>S.no.</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </thead>
+                
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>{{data9.Name}}</td>
+                            <td>{{data9.Email}}</td>
+                            <td>{{data9.Age}}</td>
+                            <td>{{data9.City}}</td>
+                        </tr>
+                    </tbody>
+            </table>
+        {% endif %}
+    </div>
+</div>
