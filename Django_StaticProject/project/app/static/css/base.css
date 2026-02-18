@@ -9,17 +9,36 @@
 .navbar{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 30.5px;
+    margin-left: -74%;
+}
+
+.list{
+    text-decoration: none;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    height: 30.075px;
+    width: 136px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 200;
+    text-transform: none;
+    text-underline-offset: 2.25px;
+    line-height: 30.0857px;
+    text-wrap-mode: nowrap;
 }
 
 .nav-logo{
     display: flex;
     justify-content: center;
-    margin-top: 20px;   /* yahi gap de raha hai */
+    align-items: center;
+    /* margin-top: -5%;   yahi gap de raha hai */
 }
 
 .logo{
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 110px;
     object-fit: contain;
+    margin-top: -6.5%;
+    cursor: pointer;
 }

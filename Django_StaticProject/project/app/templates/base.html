@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock css %}
 
+    {% block icons %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    {% endblock icons %}
+
 </head>
 
 <body>
@@ -32,10 +36,10 @@
         <div class="nav-logo">
             <img src="{% static 'images/logo4.jpg' %}" class="logo" alt="logo">
         </div>
-        <div>
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="icon-box">
+            <div><i class="fa-solid fa-magnifying-glass"></i></div>
+            <div><i class="fa-regular fa-user" style="color: rgb(15, 14, 14);"></i></div>
+            <div><i class="fa-solid fa-bag-shopping" style="color: rgb(15, 14, 14);"></i></div>
         </div>
     </div>
 </body>
