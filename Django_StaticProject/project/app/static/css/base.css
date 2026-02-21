@@ -10,7 +10,7 @@
     display: flex;
     list-style: none;
     gap: 30.5px;
-    margin-left: -74%;
+    margin-left: -79%;
 }
 
 .list{
@@ -21,7 +21,7 @@
     width: 136px;
     font-size: 18px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     text-transform: none;
     text-underline-offset: 2.25px;
     line-height: 30.0857px;
@@ -92,7 +92,7 @@
 .cloth-title{
     color: rgb(203, 70, 37);
     font-family: Assistant,sans-serif;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 800;
     /* height: 25.0625px;
     width: 54.4px; */
@@ -107,18 +107,99 @@
     justify-content: center;
     align-items: start;
     gap: 8px;
-    margin-left: -85px;
+    margin-top: -15px;
+    margin-left: -95px;
 }
 
 .tshirtcategory{
     font-family: Assistant,sans-serif;
     color: rgba(0, 0, 0, 0.81);
-    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 50;
     text-decoration: none;
     text-transform: none;
     text-underline-offset: 2px;
+    list-style-image: none;
+    list-style-position: outside;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    /* text-wrap-mode: wrap; */
 }
 
+.tshirtcategory :hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.shirt-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+    margin-top: -74px;
+    margin-left: -18px;
+}
+
+.bottomwear-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+    margin-top: -76px;
+    margin-left: -18px;
+}
+
+.winterwear-list #winterwear-cloth-title{
+    color: rgb(203, 70, 37);
+    font-family: Assistant,sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    /* height: 25.0625px;
+    width: 54.4px; */
+    font-style: normal;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.winterwear-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.other-list{
+    /* color: rgb(203, 70, 37); */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 9px;
+}
+
+.other-list li{
+    font-family: Assistant,sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    /* height: 25.0625px;
+    width: 54.4px; */
+    font-style: normal;
+    text-decoration: none;
+    list-style: none;
+}
+
+.other-list-items{
+    color: rgb(203, 70, 37);
+    text-decoration: none;
+}
 
 
 /* .cloth-list li{

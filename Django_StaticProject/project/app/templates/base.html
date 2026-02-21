@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block title %}
     {% endblock title %}
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700&display=swap" rel="stylesheet">
 
     {% block css %}
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
@@ -69,7 +70,7 @@
                         <li><a class="tshirtcategory" href="">New Arrival</a></li>
                         <li><a class="tshirtcategory" href="">Half Sleeveless T-shirt</a></li>
                         <li><a class="tshirtcategory" href="">Full Sleeveless Shirt</a></li>
-                        <li><a class="tshirtcategory" href="">Shaket Shirt</a></li>
+                        <!-- <li><a class="tshirtcategory" href="">Shaket Shirt</a></li> -->
                     </ul>
                 </nav>
             </header>
@@ -92,7 +93,7 @@
             <header>
                 <nav>
                     <ul class="winterwear-list">
-                        <li><a href="" class="cloth-title">WINTER WEAR</a></li>
+                        <li><a href="" id="winterwear-cloth-title">WINTER WEAR</a></li>
                         <li><a class="tshirtcategory" href="">Leather Jacket</a></li>
                         <li><a class="tshirtcategory" href="">Jacket</a></li>
                         <li><a class="tshirtcategory" href="">Sweatshirt</a></li>
@@ -108,17 +109,19 @@
             <div>
                 <header>
                 <nav>
-                    <ul>
-                        <li><a href="">LUXE</a></li>
-                        <li><a href="">POLO</a></li>
-                        <li><a href="">SALE</a></li>
-                        <li><a href="">SOCKS</a></li>
+                    <ul class="other-list">
+                        <li><a class="other-list-items" href="">LUXE</a></li>
+                        <li><a class="other-list-items" href="">POLO</a></li>
+                        <li><a class="other-list-items" href="">SALE</a></li>
+                        <li><a class="other-list-items" href="">SOCKS</a></li>
                     </ul>
                 </nav>
             </header>
             </div>
         </div>
-        <div></div>
+        <div>
+            <div></div>
+        </div>
     </div>
 </body>
 </html>
