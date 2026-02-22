@@ -49,7 +49,7 @@
     align-items: end;
     gap: 1.5%;
     margin-top: -4.3%;
-    margin-right: 24px;
+    margin-right: 52.5px;
 }
 
 .icon{
@@ -201,8 +201,61 @@
     text-decoration: none;
 }
 
+.cloth-box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-left: 990px;
+    margin-top: -425px;
+}
 
-/* .cloth-list li{
+.img1{
+    height: 320px;
+    width: 213px;
+    cursor: pointer;
+}
+
+.img2{
+    height: 320px;
+    width: 213px;
+    cursor: pointer;
+}
+
+.img1-content{
+    font-family: Assistant,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.81);
+    cursor: pointer;
     text-decoration: none;
-    text-transform: none;
-} */
+}
+
+.img2-content{
+    font-family: Assistant,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.81);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.img1-pricecut{
+    font-family: Assistant,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.img2-pricecut{
+    font-family: Assistant,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
