@@ -1,5 +1,5 @@
 .navbar-container{
-    border: 1px solid black;
+    border: 0px solid white;
     height: 82px;
     display: flex;
     justify-content: center;
@@ -60,14 +60,14 @@
 
 .hover-box{
     display: block;
-    border: 1px solid black;
+    border: 0px solid white;
     margin-top: 29px;
     height: 454.663px;
     width: 99.9%;
 }
 
 .cloth-box{
-    border: 1px solid black;
+    border: 0px solid white;
     margin-top: 6px;
     height: 415.553px;
     width: 67%;
@@ -207,7 +207,7 @@
     align-items: center;
     gap: 32px;
     margin-left: 990px;
-    margin-top: -425px;
+    margin-top: -415.5px;
 }
 
 .img1{

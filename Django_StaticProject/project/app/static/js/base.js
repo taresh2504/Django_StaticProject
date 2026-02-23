@@ -17,3 +17,4 @@ img2.addEventListener('mouseenter', function(){
 img2.addEventListener('mouseleave', function(){
     img2.src = "/static/images/img2.jpg";
 });
+
