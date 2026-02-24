@@ -18,3 +18,29 @@ img2.addEventListener('mouseleave', function(){
     img2.src = "/static/images/img2.jpg";
 });
 
+const categoryItem = document.querySelector('.category-item');
+const hoverBox = document.querySelector('.hover-box');
+
+let timeout;
+
+categoryItem.addEventListener('mouseenter', () => {
+    clearTimeout(timeout);
+    hoverBox.style.display = 'block';
+});
+
+categoryItem.addEventListener('mouseleave', () => {
+    timeout = setTimeout(() => {
+        hoverBox.style.display = 'none';
+    }, 3000);
+});
+
+hoverBox.addEventListener('mouseenter', () => {
+    clearTimeout(timeout);
+});
+
+hoverBox.addEventListener('mouseleave', () => {
+    timeout = setTimeout(() => {
+        hoverBox.style.display = 'none';
+    }, 500);
+});
+
