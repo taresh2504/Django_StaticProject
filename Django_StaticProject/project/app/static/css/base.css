@@ -309,19 +309,139 @@
     /* color: #cb4625; */
 }
 
+.drift{
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .claw{
     margin-left: -55px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .wild{
-    margin-left: -37px;
+    margin-left: -50px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .root{
-    margin-left: 62px;
+    margin-left: 42px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
 }
 
+.spring{
+    margin-left: 10px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
 
+.ember{
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row2-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    list-style: none;
+    font-family: Assistant,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -1px;
+}
+
+.row3-list{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    /* gap: 75px; */
+    list-style: none;
+    font-family: Assistant,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.majestic{
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.conqueor{
+    margin-top: 20px;
+}
+
+.conqueror{
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.summer{
+    margin-left: -2px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.knit{
+    margin-left: 20px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.distressed{
+    margin-left: 19px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.untamed{
+    margin-left: -12px;
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.re{
+    color: #cb4625;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
 
 /* color: #cb4625;
         font-size: 15px;
