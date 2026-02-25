@@ -31,7 +31,7 @@ categoryItem.addEventListener('mouseenter', () => {
 categoryItem.addEventListener('mouseleave', () => {
     timeout = setTimeout(() => {
         hoverBox.style.display = 'none';
-    }, 3000);
+    }, 300);
 });
 
 hoverBox.addEventListener('mouseenter', () => {
@@ -41,6 +41,58 @@ hoverBox.addEventListener('mouseenter', () => {
 hoverBox.addEventListener('mouseleave', () => {
     timeout = setTimeout(() => {
         hoverBox.style.display = 'none';
-    }, 500);
+    }, 300);
+});
+
+const categoryItem2 = document.querySelector('.category-item2');
+const hoverBox2 = document.querySelector('.hover-box2');
+
+let timeout2;
+
+categoryItem2.addEventListener('mouseenter', () => {
+    clearTimeout(timeout2);
+    hoverBox2.style.display = 'block';
+});
+
+categoryItem2.addEventListener('mouseleave', () => {
+    timeout2 = setTimeout(() => {
+        hoverBox2.style.display = 'none';
+    }, 300);
+});
+
+hoverBox2.addEventListener('mouseenter', () => {
+    clearTimeout(timeout2);
+});
+
+hoverBox2.addEventListener('mouseleave', () => {
+    timeout2 = setTimeout(() => {
+        hoverBox2.style.display = 'none';
+    }, 300);
+});
+
+const categoryItem3 = document.querySelector('.category-item3');
+const hoverBox3 = document.querySelector('.hover-box3');
+
+let timeout3;
+
+categoryItem3.addEventListener('mouseenter', () => {
+    clearTimeout(timeout3);
+    hoverBox3.style.display = 'block';
+});
+
+categoryItem3.addEventListener('mouseleave', () => {
+    timeout3 = setTimeout(() => {
+        hoverBox3.style.display = 'none';
+    }, 300);
+});
+
+hoverBox3.addEventListener('mouseenter', () => {
+    clearTimeout(timeout3);
+});
+
+hoverBox3.addEventListener('mouseleave', () => {
+    timeout3 = setTimeout(() => {
+        hoverBox3.style.display = 'none';
+    }, 300);
 });
 

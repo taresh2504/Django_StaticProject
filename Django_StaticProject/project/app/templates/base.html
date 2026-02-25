@@ -28,9 +28,9 @@
                 <nav>
                     <ul class="navbar">
                         <li class="category-item"><a href="" class="list">Shop By Category</a></li>
-                        <li><a href="" class="list">Shop By Collection</a></li>
+                        <li class="category-item2"><a href="" class="list">Shop By Collection</a></li>
                         <li><a href="" class="list">Sale</a></li>
-                        <li><a href="" class="list">Policy</a></li>
+                        <li class="category-item3"><a href="" class="list">Policy</a></li>
                         <li><a href="" class="list">Fit Guide</a></li>
                     </ul>
                 </nav>
@@ -123,16 +123,7 @@
             </div>
         </div>
     </div>
-        </div>
-        <div class="nav-logo">
-            <img src="{% static 'images/logo4.jpg' %}" class="logo" alt="logo">
-        </div>
-        <div class="icon-box">
-            <div><img class="icon" src="{% static 'images/SearchIconLogoImage.png' %}" alt="search-icon"></div>
-            <div><img class="icon" src="{% static 'images/UserLogoImage.png' %}" alt="profile-icon"></div>
-            <div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div>
-        </div>
-    </div>
+
     <div class="hover-box2">
         <div class="row1">
             <header>
@@ -176,6 +167,39 @@
             </header>
         </div>
     </div>
+
+    <div class="hover-box3">
+        <header>
+            <nav>
+                <ul class="hover-box3list">
+                    <li><a href="" class="re">RETURN ORDER</a></li>
+                    <li><a href="" class="re">PRIVACY POLICY</a></li>
+                    <li><a href="" class="re">REFUND POLICY</a></li>
+                    <li><a href="" class="re">SHIPPING POLICY</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+        </div>
+        <div class="nav-logo">
+            <img src="{% static 'images/logo4.jpg' %}" class="logo" alt="logo">
+        </div>
+        <div class="icon-box">
+            <div><img class="icon" src="{% static 'images/SearchIconLogoImage.png' %}" alt="search-icon"></div>
+            <div><img class="icon" src="{% static 'images/UserLogoImage.png' %}" alt="profile-icon"></div>
+            <div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="search-box">
+        <div>
+        <i class="fa-solid fa-magnifying-glass" id="search-icon" style="color: rgb(74, 77, 83);"></i>
+        <input type="search" name="" class="search-holder" placeholder="Search" id="">
+        </div>
+    </div>
+    
     
     {% block js %}
     <script src="{% static 'js/base.js' %}"></script>
