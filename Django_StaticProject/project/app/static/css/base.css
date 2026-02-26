@@ -488,13 +488,11 @@
 }
 
 #search-icon{
-    margin-left: 50px;
+    margin-left: 20px;
     margin-top: 10px;
+    padding-top: 50px;
 }
 
-
-
-/* color: #cb4625;
-        font-size: 15px;
-        font-weight: 600;
-        text-transform: uppercase; */
+.search-box .search-box2 input{
+    padding-left: 50px;
+}
