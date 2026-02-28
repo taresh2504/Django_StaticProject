@@ -468,32 +468,32 @@
     list-style: none;
 }
 
-.search-box{
-    border: 1px solid black;
-    height: 358px;
-    width: 690px;
-    border-radius: 15px;
+.search-box2{
+    position: relative;   /* IMPORTANT */
+    width: 100%;
 }
 
 .search-holder{
-    /* border-color: white; */
     background-color: white;
     height: 50px;
     width: 100%;
     font-family: Assistant,sans-serif;
-    margin-top: 2px;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    display: block;
+    outline: none;
+    border: none;
+    padding-left: 45px;   /* Space for icon */
 }
 
-
+/* Icon inside input */
 #search-icon{
-    margin-left: 20px;
-    margin-top: 10px;
-    padding-top: 50px;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;   /* Click input par hi rahe */
 }
-
 
 .search-box .search-box2 input{
     padding-left: 50px;
