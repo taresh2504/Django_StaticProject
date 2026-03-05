@@ -525,12 +525,38 @@
 .product-card{
     border: 1px solid black;
     height: 224.562px;
-    width: 150.238px;
-    margin-left: 50px;
-    margin-top: 20px;
+    width: 148px;
+    margin-left: 15px;
 }
 
+/* .product-carda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
 .product-img1{
-    height: 180px;
-    width: 150.238px;
+    height: 181px;
+    width: 148px;
+}
+
+.product-name{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+}
+
+.product-cardcutprice{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    color: grey;
+}
+
+.product-cardnewprice{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    color: black;
 }
