@@ -469,9 +469,9 @@
 }
 
 .search-box{
-    border: 1px solid black;
-    width: 616.175px;
-    height: 339.562px;
+    border: 1px solid whitesmoke;
+    width: 672px;
+    height: 355.5px;
     border-radius: 15px;
 }
 
@@ -522,11 +522,21 @@
     padding-top: 6.8px;
 }
 
+.card-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14.4px;
+    /* margin-left: 10px; */
+    margin-top: 5px;
+}
+
 .product-card{
-    border: 1px solid black;
-    height: 224.562px;
-    width: 148px;
-    margin-left: 15px;
+    border: 1px solid white;
+    height: 242px;
+    width: 147.200px;
+    cursor: pointer;
+    /* margin-left: 25px; */
 }
 
 /* .product-carda{
@@ -538,7 +548,7 @@
 
 .product-img1{
     height: 181px;
-    width: 148px;
+    width: 147.200px;
 }
 
 .product-name{
