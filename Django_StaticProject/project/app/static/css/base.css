@@ -469,7 +469,7 @@
 }
 
 .search-box{
-    border: 1px solid whitesmoke;
+    border: 1px solid black;
     width: 672px;
     height: 355.5px;
     border-radius: 15px;
@@ -532,7 +532,40 @@
 }
 
 .product-card{
-    border: 1px solid white;
+    /* border: 1px solid black; */
+    border: none;
+    height: 242px;
+    width: 147.200px;
+    cursor: pointer;
+    transition: all 0.25s ease;   /* ADD THIS */
+    /*padding:8px;               ADD THIS 
+    box-sizing:border-box;    ADD THIS*/
+}
+
+.product-card:hover{
+    transform: translateY(-8px);  /* card upar uth jayega */
+    background:lightgray;           /* grey background */
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);  /* box effect */
+}
+
+.product-card2{
+    border: 1px solid black;
+    height: 242px;
+    width: 147.200px;
+    cursor: pointer;
+    /* margin-left: 25px; */
+}
+
+.product-card3{
+    border: 1px solid black;
+    height: 242px;
+    width: 147.200px;
+    cursor: pointer;
+    /* margin-left: 25px; */
+}
+
+.product-card4{
+    border: 1px solid black;
     height: 242px;
     width: 147.200px;
     cursor: pointer;
@@ -547,6 +580,22 @@
 } */
 
 .product-img1{
+    height: 181px;
+    width: 147.200px;
+    /* width:100%; */
+}
+
+.product-img2{
+    height: 181px;
+    width: 147.200px;
+}
+
+.product-img3{
+    height: 181px;
+    width: 147.200px;
+}
+
+.product-img4{
     height: 181px;
     width: 147.200px;
 }

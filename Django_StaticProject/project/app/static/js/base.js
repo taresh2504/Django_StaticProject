@@ -96,5 +96,54 @@ hoverBox3.addEventListener('mouseleave', () => {
     }, 300);
 });
 
+// search box product card
+
+// search box product card
+
+var productcard = document.querySelector('.product-card');
+var productimg = document.querySelector('.product-img1');
+
+productcard.addEventListener('mouseenter', function(){
+    productimg.src = "/static/images/img4b.jpg";
+});
+
+productcard.addEventListener('mouseleave', function(){
+    productimg.src = "/static/images/img4.jpg";
+});
+
+var productcard2 = document.querySelector('.product-card2');
+var productimg2 = document.querySelector('.product-img2');
+
+productcard2.addEventListener('mouseenter', function(){
+    productimg2.src = "/static/images/img3b.jpg";
+});
+
+productcard2.addEventListener('mouseleave', function(){
+    productimg2.src = "/static/images/img3.jpg";
+});
+
+var productcard3 = document.querySelector('.product-card3');
+var productimg3 = document.querySelector('.product-img3');
+
+productcard3.addEventListener('mouseenter', function(){
+    productimg3.src = "/static/images/img5b.jpg";
+});
+
+productcard3.addEventListener('mouseleave', function(){
+    productimg3.src = "/static/images/img5.jpg";
+});
+
+var productcard4 = document.querySelector('.product-card4');
+var productimg4 = document.querySelector('.product-img4');
+
+productcard4.addEventListener('mouseenter', function(){
+    productimg4.src = "/static/images/img6b.jpg";
+});
+
+productcard4.addEventListener('mouseleave', function(){
+    productimg4.src = "/static/images/img6.jpg";
+});
+
+
 
 
