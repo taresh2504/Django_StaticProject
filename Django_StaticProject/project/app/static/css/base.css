@@ -679,3 +679,11 @@
     margin-left: 30px;
     padding-top: 50px;
 }
+
+.shop-signup{
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+
+}
