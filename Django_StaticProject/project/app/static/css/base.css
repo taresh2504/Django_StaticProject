@@ -680,9 +680,21 @@
     padding-top: 50px;
 }
 
-.shop-signup{
+.shop-signupbox{
     border: 1px solid black;
     height: 44px;
     width: 139.4px;
     border-radius: 10px;
+    background-color: blueviolet;
+    text-align: center;
 }
+
+.shop-signup{
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-family: Assistant,sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
