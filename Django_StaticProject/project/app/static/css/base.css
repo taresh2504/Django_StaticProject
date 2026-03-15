@@ -670,6 +670,10 @@
     border-radius: 14px;
 }
 
+.account-name{
+    display: block;
+}
+
 .account-box .account-name{
     font-size: 18px;
     font-weight: 400;
@@ -677,24 +681,96 @@
     font-family: Assistant,sans-serif;
     color: rgba(0, 0, 0, 0.81);
     margin-left: 30px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
 }
 
 .shop-signupbox{
     border: 1px solid black;
     height: 44px;
     width: 139.4px;
-    border-radius: 10px;
-    background-color: blueviolet;
-    text-align: center;
+    border-radius: 15px;
+    /* background-color: blue; */
+    background-color: rgb(84, 51, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 106.2px;
+    cursor: pointer;
 }
 
 .shop-signup{
     font-size: 12px;
     font-weight: 500;
-    font-style: normal;
     font-family: Assistant,sans-serif;
+    /* font-family: GTStandard-M, sans-serif; */
     color: white;
     text-decoration: none;
 }
 
+.other-signupbox{
+    border: 1px solid black;
+    height: 44px;
+    width: 306px;
+    border-radius: 15px;
+    /* background-color: blue; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 23px;
+    cursor: pointer;
+}
+
+.other-signup{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Assistant,sans-serif;
+    /* font-family: GTStandard-M, sans-serif; */
+    color: white;
+    text-decoration: none;
+}
+
+.account-order-box{
+    border: 1px solid white;
+    border-radius: 15px;
+    height: 44px;
+    width: 147.4px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.account-lastbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.order-logo{
+    height: 20px;
+    width: 20px;
+}
+
+.profile-logo{
+    height: 17px;
+    width: 17px;
+}
+
+.account-orders{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Assistant,sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.account-profile{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Assistant,sans-serif;
+    color: black;
+    text-decoration: none;
+}
