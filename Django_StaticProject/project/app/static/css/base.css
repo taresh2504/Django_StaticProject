@@ -668,6 +668,7 @@
     height: 241.8px;
     width: 352px;
     border-radius: 14px;
+    margin-top: 8px;
 }
 
 .account-name{
@@ -773,4 +774,85 @@
     font-family: Assistant,sans-serif;
     color: black;
     text-decoration: none;
+}
+
+.account-order-box:hover{
+    background-color: lightgray;
+}
+
+.account-box{
+    display: none;
+}
+
+.cartmain-box{
+    border: 1px solid whitesmoke;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    width: 400px;
+    height: 100vh;
+    margin-left: 1100px;
+}
+
+#cartcross-mark{
+    display: block;
+    margin-left: 362px;
+    margin-top: 18px;
+    font-size: 17px;
+}
+
+.empty-cart{
+    margin-top: 210px;
+    font-family: Assistant,sans-serif;
+    /* color: black; */
+    color: rgba(0, 0, 0, 0.81);
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secondcart-box{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 117.200px;
+    width: 380px;
+    margin-left: 10px;
+}
+
+.cartbox-login{
+    font-family: Assistant,sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.81);
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.cartbox-mainlogin{
+    font-family: Assistant,sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.81);
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cartbox-shoppingbutton{
+    margin-top: 12.8px;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    cursor: pointer;
+    height: 44px;
+    width: 157.6px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: black;
+    color: white;
+    font-family: Assistant,sans-serif;
+    margin-left: 111.2px;
 }
