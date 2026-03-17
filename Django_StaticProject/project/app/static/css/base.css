@@ -785,12 +785,13 @@
 }
 
 .cartmain-box{
-    border: 1px solid whitesmoke;
+    border: 1px solid black;
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
     width: 400px;
     height: 100vh;
     margin-left: 1100px;
+    margin-top: -80px;
 }
 
 #cartcross-mark{
@@ -855,4 +856,55 @@
     color: white;
     font-family: Assistant,sans-serif;
     margin-left: 111.2px;
+}
+
+.cartmain-box{
+    display: none;
+}
+
+.offer-bar {
+    margin-top: 4px;
+    height: 23.6px;
+    width: 100%;
+    background-color: #fb8930;
+    color: white;
+    overflow: hidden;
+}
+
+.offer-track {
+    display: flex;
+    width: max-content;
+    animation: scroll 5s linear infinite;
+}
+
+.offer-content {
+    display: flex;
+    white-space: nowrap;
+    padding-top: 2.5px;
+}
+
+.offer-dot{
+    display: block;
+    font-size: 14px;
+    font-weight: bolder;
+    /* font-weight: 500; */
+    /* padding-top: -12px; */
+    margin-top: -4px;
+    color: lightgray;
+}
+
+.offer-content span {
+    margin-right: 60px;
+    font-size: 14px;
+    font-family: Assistant, sans-serif;
+}
+
+/* 🔥 magic animation */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-20%);
+    }
 }
