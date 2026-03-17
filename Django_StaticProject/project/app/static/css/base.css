@@ -908,3 +908,110 @@
         transform: translateX(-20%);
     }
 }
+
+
+/* Footer css begin */
+.footermain-box{
+    border: 1px solid black;
+    height: 824.812px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: lightgray;
+}
+
+.footersecond-box{
+    border: 1px solid none;
+    height: 824.812px;
+    width: 1408px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.footer-overlays{
+    display: block;
+    color: black;
+    font-family: Assistant, sans-serif;
+    font-size: 308.288px;
+    font-style: normal;
+    font-weight: 400;
+    height: 369.938px;
+    width: 211.65px;
+    letter-spacing: 9.24865px;
+    text-align: left;
+    margin-top: -45px;
+}
+
+.footer-heading{
+    display: block;
+    color: black;
+    font-family: Assistant, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footer-subheading{
+    display: block;
+    color: rgba(0, 0, 0, 0.81);
+    font-family: Assistant, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+.footeremail-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footeremail-box input{
+    font-size: 12px;
+    font-style: normal;
+    font-family: Assistant, sans-serif;
+    font-weight: 400;
+    letter-spacing: normal;
+    padding-left: 28px;
+    color: rgba(0, 0, 0, 0.53);
+    background-color: lightgray;
+}
+
+.footer-search{
+    border: 1px solid black;
+    height: 50.4px;
+    width: 704px;
+    border-radius: 39px;
+    border-color: rgba(0, 0, 0, 0.13);
+    color: rgba(0, 0, 0, 0.53);
+    font-family: Assistant, sans-serif;
+    cursor: text;
+    display: block;
+    text-align: start;
+}
+
+.footer-arrow{
+    display: block;
+    cursor: default;
+    font-size: 15px;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    /* height: 32.4px;
+    width: 32.4px; */
+    margin-top: -35px;
+    margin-left: 650px;
+}
+
+.footerend-heading{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 240px;
+    list-style: none;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+}
