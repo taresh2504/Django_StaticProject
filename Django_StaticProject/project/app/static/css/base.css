@@ -54,6 +54,7 @@
     gap: 1.5%;
     margin-top: -4.3%;
     margin-right: 52.5px;
+    /* position: relative; */
 }
 
 .icon{
@@ -794,6 +795,11 @@
     margin-top: -80px;
 }
 
+.cartmain-box{
+    display: none;
+}
+
+
 #cartcross-mark{
     display: block;
     margin-left: 362px;
@@ -856,10 +862,6 @@
     color: white;
     font-family: Assistant,sans-serif;
     margin-left: 111.2px;
-}
-
-.cartmain-box{
-    display: none;
 }
 
 .offer-bar {
@@ -1014,4 +1016,68 @@
     font-family: Assistant, sans-serif;
     font-style: normal;
     font-size: 16px;
+}
+
+.footerend-headingA{
+    padding-top: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    list-style: none;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.relax-fit{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.footerend-headingB{
+    margin-top: -230px;
+    padding-left: 402px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    list-style: none;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerend-headingC{
+    margin-top: -205px;
+    padding-left: 733px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    list-style: none;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.footerend-headingD{
+    margin-top: -103px;
+    padding-left: 1041px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 10px;
+    list-style: none;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
 }

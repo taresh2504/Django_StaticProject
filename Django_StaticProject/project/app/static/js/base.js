@@ -144,6 +144,18 @@ productcard4.addEventListener('mouseleave', function(){
     productimg4.src = "/static/images/img6.jpg";
 });
 
+// bag js
 
+const bagBtn = document.getElementById("bag-btn");
+const cartBox = document.getElementById("cart-box");
+const closeBtn = document.getElementById("cartcross-mark");
+
+bagBtn.addEventListener("click", () => {
+    cartBox.classList.add("active");
+});
+
+closeBtn.addEventListener("click", () => {
+    cartBox.classList.remove("active");
+});
 
 
