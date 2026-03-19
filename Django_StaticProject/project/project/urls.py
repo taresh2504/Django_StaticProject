@@ -21,4 +21,6 @@ from app import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.landing,name='landing'),
+    path('landing/account/',views.account,name='account'),
+    path('landing/search/',views.search,name='search'),
 ]
