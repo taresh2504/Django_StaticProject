@@ -9,3 +9,6 @@ def account(req):
 
 def search(req):
     return render(req,'landing.html',{'search':True})
+
+def bag(req):
+    return render(req,'landing.html',{'bag':True})

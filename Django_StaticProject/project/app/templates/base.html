@@ -183,14 +183,15 @@
             </nav>
         </header>
     </div>
-        </div>
-        <div class="nav-logo">
+
+    <div class="nav-logo">
             <img src="{% static 'images/logo4.jpg' %}" class="logo" alt="logo">
         </div>
         <div class="icon-box">
             <a href="{% url 'search' %}"><div><img class="icon" id="search-logo" src="{% static 'images/SearchIconLogoImage.png' %}" alt="search-icon"></div></a>
             <a href="{% url 'account' %}"><div><img class="icon" src="{% static 'images/UserLogoImage.png' %}" alt="profile-icon"></div></a>
-            <div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div>
+            <a href="{% url 'bag' %}"><div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div></a>
+        </div>
         </div>
     
     </div>
@@ -254,36 +255,6 @@
         </div>
     </div>
 
-    {% comment %} <div class="search-box">
-        <div class="search-box2">
-            <i class="fa-solid fa-magnifying-glass" id="search-icon" style="color: rgb(74, 77, 83);"></i><input type="search" name="" class="search-holder" placeholder="Search" id=""><hr class="hr">
-        </div>
-        <div class="srch-products">Products</div>
-        <div class="card-holder">
-            <div class="product-box">
-                <div class="product-card"><img src="{% static 'images/img4.jpg' %}" class="product-img1" alt=""><br><span class="product-name">Marine drift Distressed hoddie</span><br>
-                <del class="product-cardcutprice">₹3,799.00</del>&nbsp;<span class="product-cardnewprice">₹2,499.00</span>
-                </div>
-            </div>
-            <div class="product-box">
-            <div class="product-card2"><img src="{% static 'images/img3.jpg' %}" class="product-img2" alt=""><br><span class="product-name">Cherry Drift faux Leather Jacket</span><br>
-                <del class="product-cardcutprice">₹4,999.00</del>&nbsp;<span class="product-cardnewprice">₹2,199.00</span>
-            </div>
-            </div>
-            <div class="product-box">
-            <div class="product-card3"><img src="{% static 'images/img5.jpg' %}" class="product-img3" alt=""><br><span class="product-name">Hazel miler Brown Textured</span><br>
-                <del class="product-cardcutprice">₹4,999.00</del>&nbsp;<span class="product-cardnewprice">₹2,199.00</span>
-            </div>
-            </div>
-            <div class="product-box">
-            <div class="product-card4"><img src="{% static 'images/img6.jpg' %}" class="product-img4" alt=""><br><span class="product-name">TAN MILER FAUX LEATHER JACKET</span><br>
-                <del class="product-cardcutprice">₹4,999.00</del>&nbsp;<span class="product-cardnewprice">₹2,199.00</span>
-            </div>
-            </div>
-        </div>
-    </div> {% endcomment %}
-    <!-- </div> -->
-
     <!-- Account Box -->
     {% elif account %}
     <br>
@@ -305,31 +276,12 @@
             <div class="account-order-box"><img src="{% static 'images/UserLogoImage.png' %}" class="profile-logo" alt="">&nbsp;<span class="account-profile">Profile</span></div>
         </div>
      </div>
-    {% endif %}
-     {% comment %} <br>
-     <div class="account-box">
-        <br>
-        <span class="account-name">Account</span>
-        <br>
-        <!-- <br> -->
-        <div class="shop-signupbox">
-            <a href="" class="shop-signup">Sign in with shop</a>
-        </div>
-        <br>
-        <div class="other-signupbox">
-            <a href="" class="other-signup">Other sign in options</a>
-        </div>
-        <br>
-        <div class="account-lastbox">
-            <div class="account-order-box"><img src="{% static 'images/orderboxlogo.png' %}" class="order-logo" alt="">&nbsp;<span class="account-orders">Orders</span></div>
-            <div class="account-order-box"><img src="{% static 'images/UserLogoImage.png' %}" class="profile-logo" alt="">&nbsp;<span class="account-profile">Profile</span></div>
-        </div>
-     </div> {% endcomment %}
-
+    
+    {% elif bag %}
     <!-- Cart Box  -->
 
     <div class="cartmain-box">
-        <i class="fa-solid fa-xmark fa-2xs" id="cartcross-mark" style="color: rgb(74, 77, 83);"></i>
+        <a href="{% url 'landing' %}"><i class="fa-solid fa-xmark fa-2xs" id="cartcross-mark" style="color: rgb(74, 77, 83);"></i></a>
         <div class="empty-cart">Your cart is empty</div>
         <br>
         <div class="secondcart-box">
@@ -339,6 +291,8 @@
             <button type="submit" class="cartbox-shoppingbutton">Continue shopping</button>
         </div>
     </div>
+    {% endif %}
+
 
     {% comment %} <!-- Train Offer -->
     <div class="offer-bar">
