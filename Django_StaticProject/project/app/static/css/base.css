@@ -487,7 +487,7 @@
     list-style: none;
 }
 
-.search-box{
+/* .search-box{
     display: block;
 }
 
@@ -501,6 +501,21 @@
 .search-box{
     margin-top: -14px;
     margin-left: 420px;
+} */
+
+.search-box{
+    position: fixed;   /* overlay banega */
+    top: 95px;         /* navbar + thoda gap */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    width: 672px;
+    height: 355.5px;
+    border-radius: 15px;
+    background: white;
+    border: 1px solid black;
+
+    z-index: 9999;   /* train se upar */
 }
 
 /* .search-box{
@@ -698,12 +713,26 @@
     color: black;
 }
 
-.account-box{
+/* .account-box{
     border: 1px solid black;
     height: 241.8px;
     width: 352px;
     border-radius: 14px;
     margin-top: 8px;
+} */
+
+.account-box{
+    position: fixed;      /* overlay */
+    top: 84px;            /* navbar ke niche */
+    left: 4px;         /* icon ke niche */
+    
+    height: 241.8px;
+    width: 352px;
+    border-radius: 14px;
+    background: white;
+    border: 1px solid black;
+
+    z-index: 9999;        /* train se upar */
 }
 
 .account-name{
@@ -815,9 +844,9 @@
     background-color: lightgray;
 }
 
-.account-box{
+/* .account-box{
     display: block;
-}
+} */
 
 /* .cartmain-box{
     border: 1px solid black;

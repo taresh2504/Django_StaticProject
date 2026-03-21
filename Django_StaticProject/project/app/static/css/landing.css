@@ -1,0 +1,41 @@
+.round-image-box{
+    border: 1px solid black;
+    height: 91.6px;
+    width: 101.6px;
+}
+
+.round-photos{
+    box-sizing: border-box;
+    height: 62px;
+    width: 62px;
+    border-radius: 50%;
+    margin-left: 19.8px;
+    margin-right: 19.8px;
+    object-fit: cover;
+    aspect-ratio: auto 50/50;
+    line-height: 16.8px;
+    max-width: 100%;
+    overflow-clip-margin: content-box;
+    overflow-x: clip;
+    overflow-y: clip;
+    text-transform: none;
+    text-underline-offset: 1.5px;
+    text-align: center;
+}
+
+.oversizedtshirt-content{
+    box-sizing: border-box;
+    line-height: 19.6px;
+    font-family: Assistant,sans-serif;
+    color: rgb(54, 54, 54);
+    cursor: pointer;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    height: 29.6px;
+    width: 101.6px;
+    text-align: center;
+    padding-top: 8px;
+    display: block;
+    text-underline-offset: 1.5px;
+}

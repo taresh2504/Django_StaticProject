@@ -2,3 +2,24 @@
 
 {% load static %} 
 
+{% block css %}
+{{ block.super }}
+    <link rel="stylesheet" href="{% static 'css/landing.css' %}">
+{% endblock css %}
+
+{% block content %}
+<br>
+<div>
+    <div class="round-image-box">
+        <img src="{% static 'images/oversizedT-shirt.jpg' %}" class="round-photos" height="50px" width="50px" alt="">
+        <span class="oversizedtshirt-content">Oversized T-shirt</span>
+    </div>
+</div>
+
+{% endblock content %} 
+
+<!-- Javascript link -->
+    {% block js %}
+    <script src="#"></script>
+    {% endblock js %}
+
