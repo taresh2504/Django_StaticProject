@@ -187,7 +187,7 @@
     <div class="nav-logo">
             <img src="{% static 'images/logo4.jpg' %}" class="logo" alt="logo">
         </div>
-        <div class="icon-box">
+        <div class="icon-box {% if bag %}hide-icons{% endif %}">
             <a href="{% url 'search' %}"><div><img class="icon" id="search-logo" src="{% static 'images/SearchIconLogoImage.png' %}" alt="search-icon"></div></a>
             <a href="{% url 'account' %}"><div><img class="icon" src="{% static 'images/UserLogoImage.png' %}" alt="profile-icon"></div></a>
             <a href="{% url 'bag' %}"><div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div></a>

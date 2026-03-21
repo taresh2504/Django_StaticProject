@@ -68,6 +68,12 @@
     /* z-index: 9999; */
 }
 
+.hide-icons{
+    /* display: none !important; */
+    visibility: hidden;
+    pointer-events: none;
+}
+
 .icon{
     display: block;
     cursor: pointer;
@@ -813,7 +819,7 @@
     display: block;
 }
 
-.cartmain-box{
+/* .cartmain-box{
     border: 1px solid black;
     border-top-right-radius: 11px;
     border-bottom-right-radius: 11px;
@@ -821,7 +827,20 @@
     height: 100vh;
     margin-left: 1100px;
     margin-top: -110px;
-    /* z-index: 10000; */
+    z-index: 10000; 
+} */
+
+.cartmain-box{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 400px;
+    height: 100vh;
+    background: white;
+    z-index: 10000;
+    overflow: hidden;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
 }
 
 .cartmain-box{
@@ -904,6 +923,8 @@
     background-color: #fb8930;
     color: white;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
 }
 
 .offer-track {
