@@ -1,5 +1,19 @@
+.maincloth-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26.5px;
+}
+
+.tshirt-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
 .round-image-box{
-    border: 1px solid black;
+    border: 1px solid none;
     height: 91.6px;
     width: 101.6px;
 }
@@ -38,4 +52,44 @@
     padding-top: 8px;
     display: block;
     text-underline-offset: 1.5px;
+}
+
+.pants-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.movement-box{
+    border: 1px solid black;
+    height: 465px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.uservisit-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-visit{
+    border: 1px solid none;
+    height: 69.6px;
+    width: 280px;
+    margin-top: 27px;
+}
+
+.customers-photo{
+    margin-left: 124px;
+}
+
+.customer-content{
+    font-size: 12px;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
 }
