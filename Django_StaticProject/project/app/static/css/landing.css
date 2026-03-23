@@ -93,3 +93,140 @@
     font-weight: 400;
     text-align: center;
 }
+
+.train-wrapper{
+    overflow: hidden;
+    width: 100%;
+}
+
+.summer-escapeboxholder{
+    display: flex;
+    gap: 5px;
+    width: max-content;
+    animation: trainMove 8s linear infinite;
+    cursor: pointer;
+}
+
+/* hover pe stop */
+.summer-escapeboxholder:hover{
+    animation-play-state: paused;
+}
+
+@keyframes trainMove{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-50%);
+    }
+}
+
+.new-launch{
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.newlaunch-itemsbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.newlaunch-items{
+    border: 1px solid none;
+    width: 377.900px;
+    height: 646px;
+    cursor: pointer;
+}
+
+.greytshirt-title{
+    font-size: 14px;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    padding-inline-start: 8px;
+}
+
+.prizes{
+    padding-inline-start: 8px;
+}
+
+.price{
+    font-size: 14px;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+    font-style: normal;
+    font-weight: 750;
+    cursor: pointer;
+}
+
+.cut-price{
+    font-size: 14px;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+    font-style: normal;
+    font-weight: 500;
+    cursor: pointer;
+    opacity: 0.4;
+    color: gray;
+}
+
+.product-variants{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    padding-inline-start: 8px;
+    padding-top: 10px;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.variant-size{
+    scrollbar-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    background-color: rgb(245, 245, 245);
+    border-color: gray;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: block;
+    font-size: 9px;
+    font-family: Assistant,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 17px;
+    width: 21px;
+    border-radius: 4px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    border-width: 0.8px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.sizes{
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 9px;
+    font-family: Assistant,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.newlaunch-itemsbox2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+}
