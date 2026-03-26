@@ -2,20 +2,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 26.5px;
+    gap: -5.5px;
 }
 
 .tshirt-box{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 0.5px;
 }
 
 .round-image-box{
     border: 1px solid none;
     height: 91.6px;
     width: 101.6px;
+    cursor: pointer;
+}
+
+.round-image-box2{
+    border: 1px solid none;
+    height: 91.6px;
+    width: 80.6px;
+    cursor: pointer;
 }
 
 .round-photos{
@@ -58,7 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.5px;
 }
 
 .movement-box{
