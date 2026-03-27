@@ -12,3 +12,6 @@ def search(req):
 
 def bag(req):
     return render(req,'landing.html',{'bag':True})
+
+def shopbycategory(req):
+    return render(req,'shopbycategory.html')

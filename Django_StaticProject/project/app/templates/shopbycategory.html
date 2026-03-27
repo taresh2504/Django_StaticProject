@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'css/shopbycategory.css' %}">
+{% endblock css %}
+
+{% block content %}
+
+<div class="filter-bar">
+
+    <div class="left-filterbox">
+        <div class="filter-btn">
+            <span class="price">Price</span>
+            <i class="fa-solid fa-angle-up fa-2xs" id="arrow" style="color: rgb(138, 142, 150);"></i>
+        </div>
+
+        <div class="dropdown">
+        <div class="dropdown-box">
+            <label for="" class="price-rupee">₹</label><input type="search" name="" class="" placeholder="0" id=""><span class="to">to</span><label for="" class="price-rupee2">₹</label><input type="search" placeholder="2,499.00" name="" class="" id="">
+        </div>
+        <div class="dropdownbox2">
+            <span class="high-price">The highest price is ₹ 2,499.00</span> 
+        </div>
+        </div>
+
+        <div class="filter-btn">
+            <span class="price">Product type</span>
+            <i class="fa-solid fa-angle-up fa-2xs" style="color: rgb(138, 142, 150);"></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropdown-box">
+                <label for=""></label><input type="search" name="" class="" id="">
+            </div>
+        </div>
+
+        <div class="filter-btn">
+            <span class="price">Size</span>
+            <i class="fa-solid fa-angle-up fa-2xs" style="color: rgb(138, 142, 150);"></i>
+        </div>
+
+        <div class="dropdown">
+            <div class="dropdown-box">
+                <label for=""></label><input type="search" name="" class="" id="">
+            </div>
+        </div>
+
+    </div>
+    
+    <div></div>
+</div>
+
+{% endblock content %}
+
+<!-- Javascript link -->
+{% block js %}
+{{ block.super }}
+<script src="{% static 'js/shopbycategory.js' %}"></script>
+{% endblock js %}

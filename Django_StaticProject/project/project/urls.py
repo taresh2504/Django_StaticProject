@@ -24,4 +24,5 @@ urlpatterns = [
     path('landing/account/',views.account,name='account'),
     path('landing/search/',views.search,name='search'),
     path('landing/bag/',views.bag,name='bag'),
+    path('shopbycategory',views.shopbycategory,name='shopbycategory'),
 ]
