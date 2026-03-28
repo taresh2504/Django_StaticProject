@@ -145,3 +145,75 @@ z-index:10;
     padding-bottom: 12.8px;
     padding-left: 32px;
 }
+
+.producttype-checkboxholder{
+    border: 1px solid black;
+    height: 123.2px;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 51px;
+    margin-left: -116px;
+}
+
+.producttype-checkbox{
+    border: 1px solid black;
+    height: 97.600px;
+    width: 94.400px;
+    margin-top: 12.8px;
+    margin-bottom: 12.8px;
+    margin-left: 12.8px;
+    margin-right: 12.8px;
+}
+
+.hoodie-checkboxholder input{
+    border: 1px solid black;
+    /* border-radius: 35px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 16px;
+    width: 16px;
+    font-size: 12px;
+    margin-left: 1px;
+}
+
+.hoodies{
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    text-align: center;
+    margin-top: -20px;
+}
+
+/* .product-checkboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    /* gap: 5px; 
+}
+
+.checkbox-ul{
+    list-style: none;
+}
+
+.checkbox-ul .hoodie-checkboxholder input{
+    border: 1px solid black;
+    height: 16px;
+    width: 16px;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-left: -30px;
+}
+
+
+.hoodies{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    text-align: center;
+} */

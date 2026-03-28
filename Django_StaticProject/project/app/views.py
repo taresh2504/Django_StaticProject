@@ -15,3 +15,5 @@ def bag(req):
 
 def shopbycategory(req):
     return render(req,'shopbycategory.html')
+
+
