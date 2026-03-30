@@ -147,7 +147,7 @@ z-index:10;
 }
 
 .producttype-checkboxholder{
-    border: 1px solid black;
+    border: 1px solid none;
     height: 123.2px;
     width: 120px;
     border-radius: 15px;
@@ -156,7 +156,7 @@ z-index:10;
 }
 
 .producttype-checkbox{
-    border: 1px solid black;
+    border: 1px solid none;
     height: 97.600px;
     width: 94.400px;
     margin-top: 12.8px;
