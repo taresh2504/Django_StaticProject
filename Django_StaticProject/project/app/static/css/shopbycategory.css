@@ -147,8 +147,8 @@ z-index:10;
 }
 
 .producttype-checkboxholder{
-    border: 1px solid none;
-    height: 123.2px;
+    border: 1px solid black;
+    height: 130.2px;
     width: 120px;
     border-radius: 15px;
     margin-top: 51px;
@@ -156,8 +156,8 @@ z-index:10;
 }
 
 .producttype-checkbox{
-    border: 1px solid none;
-    height: 97.600px;
+    border: 1px solid black;
+    height: 95.600px;
     width: 94.400px;
     margin-top: 12.8px;
     margin-bottom: 12.8px;
@@ -186,6 +186,34 @@ z-index:10;
     font-family: Assistant,sans-serif;
     text-align: center;
     margin-top: -20px;
+}
+
+.hoodie-link{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.producttype-checkboxholder .clear{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: -13px;
+    padding-right: 9%;
+    
+}
+
+.clear{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.81);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    
+}
+
+.clear :hover{
+    text-decoration: underline;
 }
 
 /* .product-checkboxes{

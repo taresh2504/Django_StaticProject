@@ -25,4 +25,9 @@ urlpatterns = [
     path('landing/search/',views.search,name='search'),
     path('landing/bag/',views.bag,name='bag'),
     path('shopbycategory',views.shopbycategory,name='shopbycategory'),
+    path('shopbycategory/hoodies/',views.hoodies,name='hoodies'),
+    path('shopbycategory/jackets/',views.jackets,name='jackets'),
+    path('shopbycategory/joggers/',views.joggers,name='joggers'),
+    path('shopbycategory/tshirt/',views.tshirt,name='tshirt'),
+    path('shopbycategory/clear/',views.clear,name='clear'),
 ]

@@ -16,4 +16,17 @@ def bag(req):
 def shopbycategory(req):
     return render(req,'shopbycategory.html')
 
+def hoodies(req):
+    return render(req,'shopbycategory.html',{'hoodies':True})
 
+def jackets(req):
+    return render(req,'shopbycategory.html',{'jackets':True})
+
+def joggers(req):
+    return render(req,'shopbycategory.html',{'joggers':True})
+
+def tshirt(req):
+    return render(req,'shopbycategory.html',{'tshirt':True})
+
+def clear(req):
+    return render(req,'shopbycategory.html')
