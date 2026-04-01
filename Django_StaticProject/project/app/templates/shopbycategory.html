@@ -36,11 +36,11 @@
                     <div class="producttype-checkbox">
                         
                         <div class="hoodie-checkboxholder">
-                            <input type="checkbox" name="" id=""><span class="hoodies"><a href="{% url 'hoodies' %}" class="hoodie-link">Hoodies</a></span>
+                            <input type="checkbox" {% if hoodies %}checked{% endif %} name="" value="" id=""><span class="hoodies"><a href="{% url 'hoodies' %}" class="hoodie-link">Hoodies</a></span>
                         </div>
 
                         <div class="hoodie-checkboxholder">
-                            <input type="checkbox" name="" id=""><span class="hoodies"><a href="{% url 'jackets' %}" class="hoodie-link">Jackets</a></span>
+                            <input type="checkbox" name=""  id=""><span class="hoodies"><a href="{% url 'jackets' %}" class="hoodie-link">Jackets</a></span>
                         </div>
                             
                         <div class="hoodie-checkboxholder">
@@ -51,18 +51,9 @@
                             <input type="checkbox" name="" id=""><span class="hoodies"><a href="{% url 'tshirt' %}" class="hoodie-link">T-shirt</a></span>
                         </div>
                     </div>
-                    {% if hoodies %}
+                    {% if hoodies or hoodiesbox or jackets or joggers or tshirt %}
                     <span><a href="{% url 'clear' %}" class="clear">Clear</a></span>
-                    {% endif %} 
-                    {% if jackets %}
-                    <span><a href="{% url 'clear' %}" class="clear">Clear</a></span>
-                    {% endif %} 
-                    {% if joggers %}  
-                    <span><a href="{% url 'clear' %}" class="clear">Clear</a></span>
-                    {% endif %} 
-                    {% if tshirt %}
-                    <span><a href="{% url 'clear' %}" class="clear">Clear</a></span> 
-                    {% endif %} 
+                    {% endif %}
                     {% comment %} <span><a href="" class="clear">Clear</a></span> {% endcomment %}
                 </div>
             </div>

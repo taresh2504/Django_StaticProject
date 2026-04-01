@@ -16,6 +16,18 @@ def bag(req):
 def shopbycategory(req):
     return render(req,'shopbycategory.html')
 
+def hoodiesbox(req):
+    return render(req,'shopbycategory.html',{
+    'hoodies': True,
+    'hoodiesbox': True,
+    'jackets': True,
+    'joggers': True,
+    'tshirt': True,
+})
+
+def hoodiesbox(req):
+    return render(req,'shopbycategory.html',{'hoodiesbox':True})
+
 def hoodies(req):
     return render(req,'shopbycategory.html',{'hoodies':True})
 
