@@ -39,3 +39,40 @@ document.addEventListener("click", ()=>{
     })
 })
 
+// Product type 
+
+// product type checkbox logic
+const checkboxes = document.querySelectorAll(".ptype")
+const clearBtn = document.getElementById("clearBtn")
+
+checkboxes.forEach(box=>{
+    box.addEventListener("change",()=>{
+
+        let checked = false
+
+        checkboxes.forEach(cb=>{
+            if(cb.checked){
+                checked = true
+            }
+        })
+
+        if(checked){
+            clearBtn.style.display = "block"
+        }else{
+            clearBtn.style.display = "none"
+        }
+
+    })
+})
+
+
+// clear button
+clearBtn.addEventListener("click",(e)=>{
+    e.stopPropagation()
+
+    checkboxes.forEach(cb=>{
+        cb.checked = false
+    })
+
+    clearBtn.style.display = "none"
+})

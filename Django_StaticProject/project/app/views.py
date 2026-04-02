@@ -13,17 +13,22 @@ def search(req):
 def bag(req):
     return render(req,'landing.html',{'bag':True})
 
-def shopbycategory(req):
-    return render(req,'shopbycategory.html')
+# def shopbycategory(req):
+#     return render(req,'shopbycategory.html')
 
-def hoodiesbox(req):
-    return render(req,'shopbycategory.html',{
-    'hoodies': True,
-    'hoodiesbox': True,
-    'jackets': True,
-    'joggers': True,
-    'tshirt': True,
-})
+def shopbycategory(req):
+    types = req.GET.getlist('type')
+    return render(req,'shopbycategory.html',{'types':types})
+
+
+# def hoodiesbox(req):
+#     return render(req,'shopbycategory.html',{
+#     'hoodies': True,
+#     'hoodiesbox': True,
+#     'jackets': True,
+#     'joggers': True,
+#     'tshirt': True,
+# })
 
 def hoodiesbox(req):
     return render(req,'shopbycategory.html',{'hoodiesbox':True})

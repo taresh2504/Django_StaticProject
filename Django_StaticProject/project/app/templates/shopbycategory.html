@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+
 {% load static %}
 
 {% block css %}
@@ -11,74 +12,85 @@
 <div class="filter-bar">
 
     <div class="left-filterbox">
-        <div class="filter-btn">
-            <span class="price">Price</span>
-            <i class="fa-solid fa-angle-up fa-2xs" id="arrow" style="color: rgb(138, 142, 150);"></i>
-        </div>
 
+        <div class="filter-btn"> 
+            <span class="price">Price</span> <i class="fa-solid fa-angle-up fa-2xs" id="arrow" style="color: rgb(138, 142, 150);"></i>
+        </div>
+        
         <div class="dropdown">
-        <div class="dropdown-box">
-            <label for="" class="price-rupee">₹</label><input type="search" name="" class="" placeholder="0" id=""><span class="to">to</span><label for="" class="price-rupee2">₹</label><input type="search" placeholder="2,499.00" name="" class="" id="">
-        </div>
-        <div class="dropdownbox2">
-            <span class="high-price">The highest price is ₹ 2,499.00</span> 
-        </div>
+            <div class="dropdown-box">
+                 <label for="" class="price-rupee">₹</label><input type="search" name="" class="" placeholder="0" id="">
+                 <span class="to">to</span><label for="" class="price-rupee2">₹</label>
+                 <input type="search" placeholder="2,499.00" name="" class="" id=""> 
+            </div>
+            <div class="dropdownbox2"> 
+                <span class="high-price">The highest price is ₹ 2,499.00</span> 
+            </div>
         </div>
 
         <div class="filter-btn">
-            <span class="price">Product type</span>
-            <i class="fa-solid fa-angle-up fa-2xs" id="arrow" style="color: rgb(138, 142, 150);"></i>
+            <span class="price">Product type</span> <i class="fa-solid fa-angle-up fa-2xs" id="arrow" style="color: rgb(138, 142, 150);"></i>
         </div>
 
         <div class="dropdown">
             <div class="dropdown-box">
                 <div class="producttype-checkboxholder">
                     <div class="producttype-checkbox">
-                        
+
                         <div class="hoodie-checkboxholder">
-                            <input type="checkbox" {% if hoodies %}checked{% endif %} name="" value="" id=""><span class="hoodies"><a href="{% url 'hoodies' %}" class="hoodie-link">Hoodies</a></span>
+                            <input type="checkbox" class="ptype" name="" value="" id="">
+                            {% comment %} {% if hoodies %} checked {% endif %} {% endcomment %}
+                                <span class="hoodies">
+                                    Hoodies
+                                {% comment %} <a href="{% url 'hoodies' %}" class="hoodie-link"></a> {% endcomment %}
+                                </span>
                         </div>
 
                         <div class="hoodie-checkboxholder">
-                            <input type="checkbox" name=""  id=""><span class="hoodies"><a href="{% url 'jackets' %}" class="hoodie-link">Jackets</a></span>
+                            <input type="checkbox" class="ptype" name="" id="">
+                            {% comment %} {% if jackets %} checked {% endif %} {% endcomment %}
+                                <span class="hoodies">
+                                    Jackets
+                                {% comment %} <a href="{% url 'jackets' %}" class="hoodie-link"></a> {% endcomment %}
+                                </span>
                         </div>
-                            
+
                         <div class="hoodie-checkboxholder">
-                            <input type="checkbox" name="" id=""><span class="hoodies"><a href="{% url 'joggers' %}" class="hoodie-link">Joggers</a></span>
+                            <input type="checkbox" class="ptype" name="" id="">
+                            {% comment %} {% if joggers %} checked {% endif %} {% endcomment %}
+                                <span class="hoodies">
+                                    Joggers
+                                {% comment %} <a href="{% url 'joggers' %}"class="hoodie-link"></a> {% endcomment %}
+                                </span>
                         </div>
-                            
+
                         <div class="hoodie-checkboxholder">
-                            <input type="checkbox" name="" id=""><span class="hoodies"><a href="{% url 'tshirt' %}" class="hoodie-link">T-shirt</a></span>
+                            <input type="checkbox" class="ptype" name="" id="">
+                            {% comment %} {% if tshirt %} checked {% endif %} {% endcomment %}
+                                <span class="hoodies">
+                                    T-shirt
+                                {% comment %} <a href="{% url 'tshirt' %}"class="hoodie-link"></a> {% endcomment %}
+                                </span>
                         </div>
-                    </div>
-                    {% if hoodies or hoodiesbox or jackets or joggers or tshirt %}
-                    <span><a href="{% url 'clear' %}" class="clear">Clear</a></span>
-                    {% endif %}
-                    {% comment %} <span><a href="" class="clear">Clear</a></span> {% endcomment %}
+
+                    </div> 
+                    {% comment %} {% if hoodies or jackets or joggers or tshirt %} {% endif %}    {% endcomment %}
+                    {% comment %} <span><a href="{% url 'clear' %}" class="clear">Clear</a></span>  {% endcomment %}
+                    <span class="clear" id="clearBtn" style="display:none;">Clear</span>
                 </div>
             </div>
         </div>
-
-        <div class="filter-btn">
-            <span class="price">Size</span>
-            <i class="fa-solid fa-angle-up fa-2xs" style="color: rgb(138, 142, 150);"></i>
-        </div>
-
+        <div class="filter-btn"> <span class="price">Size</span> <i class="fa-solid fa-angle-up fa-2xs"
+                style="color: rgb(138, 142, 150);"></i> </div>
         <div class="dropdown">
-            <div class="dropdown-box">
-                <label for=""></label><input type="search" name="" class="" id="">
-            </div>
+            <div class="dropdown-box"> <label for=""></label><input type="search" name="" class="" id=""> </div>
         </div>
-
     </div>
-    
     <div></div>
 </div>
-
-{% endblock content %}
-
+{% endblock content %} 
 <!-- Javascript link -->
-{% block js %}
-{{ block.super }}
+  {% block js %} 
+  {{ block.super }}
 <script src="{% static 'js/shopbycategory.js' %}"></script>
-{% endblock js %}
+ {% endblock js %}
