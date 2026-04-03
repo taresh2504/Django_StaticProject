@@ -76,19 +76,27 @@
                     </div> 
                     {% comment %} {% if hoodies or jackets or joggers or tshirt %} {% endif %}    {% endcomment %}
                     {% comment %} <span><a href="{% url 'clear' %}" class="clear">Clear</a></span>  {% endcomment %}
-                    <span class="clear" id="clearBtn" style="display:none;">Clear</span>
+                    <span class="clear" id="clearBtn">Clear</span>
                 </div>
             </div>
         </div>
-        <div class="filter-btn"> <span class="price">Size</span> <i class="fa-solid fa-angle-up fa-2xs"
-                style="color: rgb(138, 142, 150);"></i> </div>
+
+
+        <div class="filter-btn">
+            <span class="price">Size</span> <i class="fa-solid fa-angle-up fa-2xs"
+                style="color: rgb(138, 142, 150);"></i>
+        </div>
+
         <div class="dropdown">
-            <div class="dropdown-box"> <label for=""></label><input type="search" name="" class="" id=""> </div>
+            <div class="dropdown-box">
+                <label for=""></label><input type="search" name="" class="" id="">
+            </div>
         </div>
     </div>
     <div></div>
 </div>
 {% endblock content %} 
+
 <!-- Javascript link -->
   {% block js %} 
   {{ block.super }}

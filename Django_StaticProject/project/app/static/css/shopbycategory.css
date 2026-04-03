@@ -195,26 +195,24 @@ z-index:10;
     color: rgba(0, 0, 0, 0.81);
 }
 
-.producttype-checkboxholder .clear{
+.producttype-checkboxholder #clearBtn{
     display: flex;
     justify-content: right;
     align-items: center;
     margin-top: -13px;
     padding-right: 9%;
-    
 }
 
-.clear{
+#clearBtn{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.81);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     font-family: Assistant,sans-serif;
-    
 }
 
-.clear :hover{
+#clearBtn :hover{
     text-decoration: underline;
 }
 
