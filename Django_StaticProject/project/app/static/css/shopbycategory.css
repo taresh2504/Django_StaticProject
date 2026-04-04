@@ -155,6 +155,9 @@ z-index:10;
     border-radius: 15px;
     margin-top: 51px;
     margin-left: -116px;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .producttype-checkbox{
@@ -195,7 +198,7 @@ z-index:10;
     color: rgba(0, 0, 0, 0.81);
 }
 
-.producttype-checkboxholder #clearBtn{
+.producttype-checkboxholder .clear{
     display: flex;
     justify-content: right;
     align-items: center;
@@ -203,16 +206,24 @@ z-index:10;
     padding-right: 9%;
 }
 
-#clearBtn{
+.clear{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.81);
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     font-family: Assistant,sans-serif;
+    display: none;
 }
 
-#clearBtn :hover{
+.clear{
+    display: none;
+    align-self: flex-end;
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+.clear :hover{
     text-decoration: underline;
 }
 

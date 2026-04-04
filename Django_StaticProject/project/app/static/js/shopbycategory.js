@@ -43,7 +43,7 @@ document.addEventListener("click", ()=>{
 
 // product type checkbox logic
 const checkboxes = document.querySelectorAll(".ptype")
-const clearBtn = document.getElementById("clearBtn")
+const clearBtn = document.getElementsByClassName("clear")
 
 checkboxes.forEach(box=>{
     box.addEventListener("change",()=>{
@@ -57,7 +57,7 @@ checkboxes.forEach(box=>{
         })
 
         if(checked){
-            clearBtn.style.display = "block"
+            clearBtn.style.display = "inline"
         }else{
             clearBtn.style.display = "none"
         }
