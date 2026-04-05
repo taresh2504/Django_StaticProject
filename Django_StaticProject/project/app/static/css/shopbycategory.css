@@ -148,6 +148,18 @@ z-index:10;
 
 
 
+/* .producttype-checkboxholder{
+    border: 1px solid black;
+    height: 130.2px;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 51px;
+    margin-left: -116px;
+
+    display: flex;
+    flex-direction: column;
+} */
+
 .producttype-checkboxholder{
     border: 1px solid black;
     height: 130.2px;
@@ -158,7 +170,11 @@ z-index:10;
 
     display: flex;
     flex-direction: column;
+
+    position: relative;   /* ADD THIS */
 }
+
+
 
 .producttype-checkbox{
     border: 1px solid black;
@@ -198,62 +214,77 @@ z-index:10;
     color: rgba(0, 0, 0, 0.81);
 }
 
-.producttype-checkboxholder .clear{
+.producttype-checkboxholder{
+    border: 1px solid black;
+    height: 130.2px;
+    width: 120px;
+    border-radius: 15px;
+    margin-top: 51px;
+    margin-left: -116px;
     display: flex;
-    justify-content: right;
-    align-items: center;
-    margin-top: -13px;
-    padding-right: 9%;
+    flex-direction: column;
+    position: relative;
 }
 
 .clear{
+    display: none;
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+
     text-decoration: none;
     color: rgba(0, 0, 0, 0.81);
     font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
     font-family: Assistant,sans-serif;
-    display: none;
 }
 
-.clear{
-    display: none;
-    align-self: flex-end;
-    margin-right: 8px;
-    margin-bottom: 5px;
-}
-
-.clear :hover{
+.clear:hover{
     text-decoration: underline;
 }
 
-
-/* .product-checkboxes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    /* gap: 5px; 
-}
-
-.checkbox-ul{
-    list-style: none;
-}
-
-.checkbox-ul .hoodie-checkboxholder input{
+.outer-sizebox{
+    margin-top: 32%; 
+    margin-right: -280px;
     border: 1px solid black;
-    height: 16px;
-    width: 16px;
-    font-size: 12px;
-    border-radius: 15px;
-    margin-left: -30px;
+    border-radius: 14px;
+    height: 185.600px;
+    width: 325.600px;
 }
 
+.inner-sizebox{
+    margin-top: 13px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-.hoodies{
+.inner-sizebox3{
+    margin-top: 13px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 13px;
+    margin-left: 13px;
+}
+
+.size-button{
+    border: 1px solid green;
+    border-radius: 12.8px;
+    height: 36px;
+    width: 51.0375px;
+    background-color: white;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     font-family: Assistant,sans-serif;
-    text-align: center;
-} */
+}
+
+.size-clear{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.81);
+    margin-left: 270px;
+}

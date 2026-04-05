@@ -41,38 +41,32 @@ document.addEventListener("click", ()=>{
 
 // Product type 
 
-// product type checkbox logic
-const checkboxes = document.querySelectorAll(".ptype")
-const clearBtn = document.getElementsByClassName("clear")
+// Product type checkbox logic
+const checkboxes = document.querySelectorAll(".ptype");
+const clearBtn = document.querySelector(".clear");
 
 checkboxes.forEach(box=>{
     box.addEventListener("change",()=>{
 
-        let checked = false
+        let checked = false;
 
         checkboxes.forEach(cb=>{
             if(cb.checked){
-                checked = true
+                checked = true;
             }
-        })
+        });
 
-        if(checked){
-            clearBtn.style.display = "inline"
-        }else{
-            clearBtn.style.display = "none"
-        }
-
-    })
-})
+        clearBtn.style.display = checked ? "block" : "none";
+    });
+});
 
 
-// clear button
 clearBtn.addEventListener("click",(e)=>{
-    e.stopPropagation()
+    e.preventDefault();
 
     checkboxes.forEach(cb=>{
-        cb.checked = false
-    })
+        cb.checked = false;
+    });
 
-    clearBtn.style.display = "none"
-})
+    clearBtn.style.display = "none";
+});

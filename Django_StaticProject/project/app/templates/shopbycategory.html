@@ -74,21 +74,79 @@
                         </div>
 
                     </div> 
-                    {% comment %} {% if hoodies or jackets or joggers or tshirt %} {% endif %}    {% endcomment %}
-                    <span><a href="" class="clear">Clear</a></span> 
+                    <a href="" class="clear">Clear</a> 
                 </div>
             </div>
         </div>
 
 
         <div class="filter-btn">
-            <span class="price">Size</span> <i class="fa-solid fa-angle-up fa-2xs"
+            <span class="price">Size</span> <i id="arrow" class="fa-solid fa-angle-up fa-2xs"
                 style="color: rgb(138, 142, 150);"></i>
         </div>
 
         <div class="dropdown">
             <div class="dropdown-box">
-                <label for=""></label><input type="search" name="" class="" id="">
+                <div class="outer-sizebox">
+                    <div class="inner-sizebox">
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">XS</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">S</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">M</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">L</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">XL</button>
+                        </form>
+                    </div>
+                    <!-- <br> -->
+                    <div class="inner-sizebox">
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">XXL</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">28</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">30</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">32</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">34</button>
+                        </form>
+                    </div>
+                    <!-- <br> -->
+                    <div class="inner-sizebox3">
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">36</button>
+                        </form>
+                        <form action="" method="post">
+                            {% csrf_token %}
+                            <button class="size-button" type="submit">38</button>
+                        
+                        </form>
+                    </div>
+                    <a href="" class="size-clear">Clear</a>
+                </div>
             </div>
         </div>
     </div>
