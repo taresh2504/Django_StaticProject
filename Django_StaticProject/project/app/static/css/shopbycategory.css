@@ -287,4 +287,6 @@ z-index:10;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.81);
     margin-left: 270px;
+
+    display: none;
 }

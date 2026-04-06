@@ -70,3 +70,15 @@ clearBtn.addEventListener("click",(e)=>{
 
     clearBtn.style.display = "none";
 });
+
+// size box js
+
+
+const sizeButtons = document.querySelectorAll(".size-button");
+const clearBtn2 = document.querySelector(".size-clear");
+
+sizeButtons.forEach(btn => {
+    btn.addEventListener("click", function(){
+        clearBtn2.style.display = "block";
+    });
+});
