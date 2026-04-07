@@ -2,6 +2,10 @@
 
 {% load static %}
 
+{% block title %}
+<title>Shop by Category</title>
+{% endblock title %} 
+
 {% block css %}
 {{ block.super }}
 <link rel="stylesheet" href="{% static 'css/shopbycategory.css' %}">
@@ -150,7 +154,28 @@
         </div>
 
     </div>
-    <div></div>
+
+    <div class="right-filterbox">
+
+            <div class="fiftysix-items">56 items</div>
+
+            <div>
+                <select name="" class="sorting" id="">
+                    <option value="" class="fiftysix-items" selected disabled>Sort</option>
+                    <option value="" class="fiftysix-items">featured</option>
+                    <option value="" class="fiftysix-items">Best Selling</option>
+                    <option value="" class="fiftysix-items">Alphabatically, A-Z</option>
+                    <option value="" class="fiftysix-items">Alphabatically, Z-A</option>
+                    <option value="" class="fiftysix-items">Price,low to high</option>
+                    <option value="" class="fiftysix-items">Price,high to low</option>
+                </select>    
+            </div>
+
+            <img src="{% static 'images/rommy-layout.png' %}" height="20px" width="20px" alt="">
+
+            <img src="{% static 'images/compact-layout.png' %}" height="10px" width="10px" alt="">
+
+    </div>
 </div>
 {% endblock content %} 
 

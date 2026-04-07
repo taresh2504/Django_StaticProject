@@ -47,3 +47,6 @@ def tshirt(req):
 
 def clear(req):
     return render(req,'shopbycategory.html')
+
+def policy(req):
+    return render(req,'policy.html')

@@ -1,0 +1,38 @@
+{% extends "base.html" %} 
+
+{% load static %}
+
+{% block title %}
+<title>Privacy policy</title>
+{% endblock title %} 
+
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'css/policy.css' %}">
+{% endblock css %} 
+
+{% block content %}
+<br>
+<p class="heading">PRIVACY POLICY</p>
+<br>
+<div class="policy-bodybox">
+<div class="policy-box1">
+    <p class="policy-content">This Privacy Policy explains how BURNER DIGITAL PRIVATE LIMITED ("Overlaysclothing" or "we" or "us") collects, uses, discloses and otherwise manages personal information when you use the website https://overlaysclothing.com/ to shop with us or otherwise share your sensitive personal information and data with us. We value our customers' privacy and appreciate your confidence that we will respect your privacy in a careful and sensible manner.</p>
+</div>
+<p>
+    <br>
+    <span class="policy-content2">By visiting the Website and/or using our products and services, you are agreeing to the terms of this Privacy Policy. Please read this</span>
+    <br>
+    <span class="policy-content2">policy carefully. Our business is constantly evolving and our Privacy Policy, the Website and our Terms & Conditions will also evolve</span>
+    <br>
+    <span class="policy-content2">in conformity with the latest regulations. We may email periodic reminders of our notices and terms of business, unless you have instructed</span>
+    <br>
+    <span class="policy-content2">us not to, but you should check our Website frequently to see recent changes. Unless stated otherwise, our current Privacy Policy applies to</span>
+</p>
+</div>
+{% endblock content %} 
+
+{% block js %}
+{{ block.super }}
+<script src="{% static 'js/policy.js' %}"></script>
+{% endblock js %} 

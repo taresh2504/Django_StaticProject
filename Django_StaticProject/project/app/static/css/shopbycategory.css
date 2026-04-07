@@ -2,6 +2,9 @@
     border: 1px solid black;
     height: 70px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .left-filterbox{
@@ -13,6 +16,7 @@
     justify-content: center;
     align-items: center;
     gap: 15px;
+    margin-left: 18px;
     /* border-radius: 20px; */
 }
 
@@ -290,3 +294,36 @@ z-index:10;
 
     display: none;
 }
+
+.right-filterbox{
+    border: 1px solid black;
+    height: 40px;
+    width: 235px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-right: 18px;
+}
+
+.fiftysix-items{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.sorting{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+    border: 0px solid none;
+    border-color: white;
+    height: 30px;
+    width: 65px;
+}
+

@@ -31,4 +31,5 @@ urlpatterns = [
     path('shopbycategory/joggers/',views.joggers,name='joggers'),
     path('shopbycategory/tshirt/',views.tshirt,name='tshirt'),
     path('shopbycategory/clear/',views.clear,name='clear'),
+    path('policy/',views.policy,name='policy')
 ]
