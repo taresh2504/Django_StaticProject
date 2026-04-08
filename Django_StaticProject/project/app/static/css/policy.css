@@ -8,9 +8,9 @@
 }
 
 .policy-bodybox{
-    border: 1px solid black;
+    border: 1px solid none;
     width: 324px;
-    height: 5210.400px;
+    height: 5577.400px;
     margin-left: 576.8px;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .policy-content{
-    text-align: center;
+    text-align: left;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -30,9 +30,9 @@
 }
 
 .policy-content2{
-    height: auto;
-    width: auto;
-    text-align: center;
+    /* height: auto;
+    width: auto; */
+    text-align: left;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
