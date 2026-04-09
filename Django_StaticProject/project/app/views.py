@@ -50,3 +50,6 @@ def clear(req):
 
 def policy(req):
     return render(req,'policy.html')
+
+def fitguide(req):
+    return render(req,'fitguide.html')
