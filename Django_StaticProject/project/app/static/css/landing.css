@@ -177,6 +177,10 @@
     height: 646px;
     cursor: pointer;
 }
+ 
+.ots-link{
+    text-decoration: none;
+}
 
 .greytshirt-title{
     font-size: 14px;
@@ -186,6 +190,7 @@
     font-weight: 400;
     cursor: pointer;
     padding-inline-start: 8px;
+    text-decoration: none;
 }
 
 .prizes{
@@ -199,6 +204,7 @@
     font-style: normal;
     font-weight: 750;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .cut-price{

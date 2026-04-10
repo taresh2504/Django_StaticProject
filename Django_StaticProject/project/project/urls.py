@@ -33,4 +33,5 @@ urlpatterns = [
     path('shopbycategory/clear/',views.clear,name='clear'),
     path('policy/',views.policy,name='policy'),
     path('fitguide/',views.fitguide,name='fitguide'),
+    path('otc/',views.otc,name='otc'),
 ]

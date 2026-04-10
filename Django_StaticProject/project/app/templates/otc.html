@@ -1,0 +1,40 @@
+{% extends "base.html" %} 
+
+{% load static %} 
+
+{% block title %}
+<title>Otc</title>
+{% endblock title %}
+
+{% block css %}
+{{ block.super }}
+<link rel="stylesheet" href="{% static 'css/otc.css' %}">
+{% endblock css %}
+
+{% block content %}
+
+<div class="main-box">
+
+    <div class="empty-gap"></div>
+    <div class="image-box">
+        <div class="empty-gap"></div>
+        <ul class="image-list">
+            <li><div class="list-image"><img src="{% static 'images/tcot3.jpg' %}" width="465.200px" height="649.600px" class="image" alt=""></div></li>
+            <li><div class="list-image"><img src="{% static 'images/tcot3.jpg' %}" width="465.200px" height="649.600px" class="image" alt=""></div></li>
+            <li><div class="list-image"><img src="{% static 'images/tcot3.jpg' %}" width="465.200px" height="649.600px" class="image" alt=""></div></li>
+            <li><div class="list-image"><img src="{% static 'images/tcot3.jpg' %}" width="465.200px" height="649.600px" class="image" alt=""></div></li>
+        </ul>
+    </div>
+
+
+
+    <div></div>
+
+
+</div>
+
+
+
+{% endblock content %} 
+
+

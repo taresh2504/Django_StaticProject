@@ -53,3 +53,6 @@ def policy(req):
 
 def fitguide(req):
     return render(req,'fitguide.html')
+
+def otc(req):
+    return render(req,'otc.html')
