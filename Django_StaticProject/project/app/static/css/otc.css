@@ -86,3 +86,91 @@
     font-weight: 400;
     font-style: normal;
 }
+
+
+.rating{
+    font-size: 12px;
+    font-family: Assistant,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: block;
+    margin-top: -15px;
+    margin-left: 23px;
+}
+
+.size-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.size-name{
+    font-size: 12px;
+    font-family: Assistant,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.size-chart{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13.3333px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    text-decoration-color: rgb(0, 0, 0);
+}
+
+.sizebutton-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 5px; */
+}
+
+.size-button{
+    border: 1px solid gray;
+    height: 32.800px;
+    width: 64.925px;
+    font-size: 12px;
+    font-family: Assistant,sans-serif;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.selecting-size{
+    border: 1px solid rgb(255, 112, 0);
+    height: 52.400px;
+    width: 455.200px;
+    border-radius: 15px;
+    background-color: rgb(255, 112, 0);
+    color: white;
+    font-size: 12px;
+    font-family: Assistant,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.selecting-size :hover{
+    background-color: white;
+} 
+
+.selecting-size :hover{
+    text-decoration-color: black;
+} 
+
+/* .selecting-size :hover{
+    border: 1px solid rgb(255, 112, 0);
+}  */
+
+.return-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.tick-button{
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+}
