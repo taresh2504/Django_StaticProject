@@ -10,8 +10,11 @@ def account(req):
 def search(req):
     return render(req,'landing.html',{'search':True})
 
-def bag(req):
-    return render(req,'landing.html',{'bag':True})
+# def bag(req):
+#     return render(req,'landing.html',{'bag':True})
+
+def cartpay(req):
+    return render(req,'cartpay.html',{'cartpay':True})
 
 # def shopbycategory(req):
 #     return render(req,'shopbycategory.html')

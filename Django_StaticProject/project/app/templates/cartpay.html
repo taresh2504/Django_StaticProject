@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% load static %} 
+ 
+{% block title %}
+<title>Cart To Payment</title> 
+{% endblock title %} 
+
+{% block css %} 
+{{ block.super }} 
+<link rel="stylesheet" href="{% static 'css/cartpay.css' %}"> 
+{% endblock css %} 
+
+{% block content %}
+
+<div class="cartmain-box"> 
+    <div class="cart-holder">
+        <strong class="cart-name">Your Cart</strong>
+        <a href="{% url 'landing' %}"><i class="fa-solid fa-xmark fa-2xs"  style="color: rgb(74, 77, 83);"></i></a>
+    </div> 
+</div> 
+
+{% endblock content %}
