@@ -137,6 +137,15 @@
     background-color: white;
 }
 
+.size-button:hover{
+    background-color: lightgray;
+}
+
+/* .size-button:checked{
+    background-color: black;
+    color: white;
+} */
+
 .selecting-size{
     border: 1px solid rgb(255, 112, 0);
     height: 52.400px;
@@ -150,17 +159,11 @@
     font-style: normal;
 }
 
-.selecting-size :hover{
+.selecting-size:hover{
     background-color: white;
-} 
+    color: black;
+}
 
-.selecting-size :hover{
-    text-decoration-color: black;
-} 
-
-/* .selecting-size :hover{
-    border: 1px solid rgb(255, 112, 0);
-}  */
 
 .return-line{
     display: flex;
