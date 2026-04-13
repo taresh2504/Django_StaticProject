@@ -16,7 +16,7 @@
 } 
     
 .cart-holder{
-    border: 1px solid black;
+    border: 1px solid none;
     height: 44px;
     width: 400px;
     margin-top: 5px;
@@ -26,9 +26,141 @@
     gap: 280px;
 }
 
-/* .cart-name{
-    padding-top: 20px;
-    margin-left: 15px;
+.cart-name{
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.cart-holder #cross-mark{
+    font-size: 15px;
+    margin-top: 4px;
+}
+
+.cartbox-headline{
+    border: 1px solid white;
+    height: 32.800px;
+    width: 400px;
+    background-color: lightgray;
+}
+
+.headline{
+    font-size: 12px;
+    font-weight: 800;
+    font-style: normal;
     font-family: Assistant,sans-serif;
     color: rgba(0, 0, 0, 0.81);
-} */
+    text-align: center;
+    margin-top: 7px;
+}
+
+.secondcart-box{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 117.200px;
+    width: 380px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-box{
+    border: 0.5px solid white;
+    height: 73px;
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 5px; */
+}
+
+.photo-desc{
+    border: 0.5px solid white;
+    height: 60.800px;
+    width: 150.125px;
+}
+
+.photo-descname{
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.photo-descsize{
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.price-box{
+    border: 0.5px solid white;
+    height: 65.800px;
+    width: 100px;
+}
+
+.cart-price{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+    text-align: right;
+}
+
+.cart-cutprice2{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: Assistant,sans-serif;
+    color: lightgray;
+    /* text-align: right; */
+    padding-left: 37px;
+}
+
+#garbage{
+    text-align: right;
+    font-size: 12px;
+    padding-left: 80px;
+}
+
+.total-block{
+    border: 1px solid white;
+    height: 22.400px;
+    width: 352px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subtotal{
+    font-size: 16px;
+    font-weight: 800;
+    font-style: normal;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+}
+
+.buy-button{
+    border: 0.5px solid rgb(255, 112, 0);
+    height: 62px;
+    width: 352px;
+    margin-left: 24px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgb(255, 112, 0);
+}
+
+.return-line{
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-family: Assistant,sans-serif;
+    color: rgba(0, 0, 0, 0.81);
+    font-weight: 600px;
+}
+

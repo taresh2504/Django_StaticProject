@@ -16,8 +16,47 @@
 <div class="cartmain-box"> 
     <div class="cart-holder">
         <strong class="cart-name">Your Cart</strong>
-        <a href="{% url 'landing' %}"><i class="fa-solid fa-xmark fa-2xs"  style="color: rgb(74, 77, 83);"></i></a>
+        <a href="{% url 'landing' %}"><i class="fa-solid fa-xmark fa-2xs" id="cross-mark" style="color: rgb(74, 77, 83);"></i></a>
     </div> 
+
+    <div class="cartbox-headline">
+        <p class="headline">Loved by 150,000+ customers💖</p>
+    </div>
+
+    <hr>
+
+    <div class="secondcart-box">
+        <div class="inside-box">
+            <img src="{% static 'images/tcot3.jpg' %}" height="70px" width="51.48px" alt="">
+
+            <div class="photo-desc">
+                <span class="photo-descname">The Creator 0versized T-shirt</span>
+                <span class="photo-descsize">XL</span>
+            </div>
+
+            <div class="price-box">
+                <div class="cart-price">₹ 1,599.00</div> 
+                <del class="cart-cutprice2">₹ 1,999.00</del>
+                <a href=""><i id="garbage" class="fa-regular fa-trash-can fa-2xs" style="color: rgb(35, 34, 33);"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="total-block">
+        <span class="subtotal">Subtotal</span> 
+        <span  class="subtotal">₹ 1,599.00</span>
+    </div>
+
+    <br>
+    <form action="" method="post">
+        <button type="submit" class="buy-button">PROCEED TO BUY</button>
+    </form>
+
+    <p></p>
+    <div class="return-line">✓ 7 Days easy exchange & returns</div>
+
+
 </div> 
 
 {% endblock content %}
