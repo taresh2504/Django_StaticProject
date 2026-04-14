@@ -1,0 +1,41 @@
+{% load static %} 
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/signup.css' %}">
+{% endblock css %} 
+
+{% block content %}
+
+<div class="main-box">
+    <div class="signup-box">
+        <br>
+        <p class="overlays-title">Overlays</p>
+        <!-- <br> -->
+        <h1 class="signup-title">Sign in</h1>
+        <div>
+            <p class="signup-line">Sign in or create an account</p>
+        </div>
+        <form action="#" method="post" enctype="multipart/form-data" class="form-box">
+
+    <input type="text" class="name-box" name="name" placeholder="Enter Name" required><br><br>
+
+    <input type="email" class="name-box" name="email" placeholder="Enter Email" required><br><br>
+
+    <input type="tel" class="name-box" name="contact" placeholder="Enter Contact Number" required><br><br>
+
+    <textarea  class="name-box"name="address" placeholder="Enter Address" rows="3" required></textarea><br><br>
+
+    <input  type="file" name="photo" required><br><br>
+
+    <input class="name-box" type="password" name="password" placeholder="Enter Password" required><br><br>
+
+    <input class="name-box" type="password" name="confirm_password" placeholder="Confirm Password" required><br><br>
+
+    <input type="submit" class="name-box" value="Register">
+
+</form>
+    </div>
+</div>
+
+
+{% endblock content %} 

@@ -191,8 +191,8 @@
         <div class="icon-box {% if bag %}hide-icons{% endif %}">
             <a href="{% url 'search' %}"><div><img class="icon" id="search-logo" src="{% static 'images/SearchIconLogoImage.png' %}" alt="search-icon"></div></a>
             <a href="{% url 'account' %}"><div><img class="icon" src="{% static 'images/UserLogoImage.png' %}" alt="profile-icon"></div></a>
-            {% comment %} <a href="{% url 'bag' %}"><div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div></a> {% endcomment %}
-            <a href="{% url 'cartpay' %}"><div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div></a>
+            <a href="{% url 'bag' %}"><div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div></a>            
+            {% comment %} <a href="{% url 'cartpay' %}"><div><img class="icon" src="{% static 'images/BagLogoImage.png' %}" alt="bag-logo"></div></a> {% endcomment %}
         </div>
         </div>
     
@@ -269,7 +269,7 @@
         </div>
         <br>
         <div class="other-signupbox">
-            <a href="" class="other-signup">Other sign in options</a>
+            <a href="{% url 'signup' %}" class="other-signup">Other sign in options</a>
         </div>
         <br>
         <div class="account-lastbox">
@@ -278,8 +278,8 @@
         </div>
      </div>
     
-    {% comment %} {% elif bag %} {% endcomment %}
-    {% elif cartpay %}
+    {% elif bag %}
+    {% comment %} {% elif cartpay %} {% endcomment %}
     <!-- Cart Box  -->
 
     <div class="cartmain-box">

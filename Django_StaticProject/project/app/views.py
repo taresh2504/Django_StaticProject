@@ -7,14 +7,17 @@ def landing(req):
 def account(req):
     return render(req,'landing.html',{'account':True})
 
+def signup(req):
+    return render(req,'signup.html')
+
 def search(req):
     return render(req,'landing.html',{'search':True})
 
-# def bag(req):
-#     return render(req,'landing.html',{'bag':True})
+def bag(req):
+    return render(req,'landing.html',{'bag':True})
 
-def cartpay(req):
-    return render(req,'cartpay.html',{'cartpay':True})
+# def cartpay(req):
+#     return render(req,'cartpay.html',{'cartpay':True})
 
 # def shopbycategory(req):
 #     return render(req,'shopbycategory.html')
