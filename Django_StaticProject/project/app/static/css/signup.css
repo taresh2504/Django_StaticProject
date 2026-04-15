@@ -8,8 +8,8 @@
 }
 
 .signup-box{
-    border: 0.800px solid black;
-    height: 600.400px;
+    border: 0.800px solid blueviolet;
+    height: 650.400px;
     width: 500px;
     border-radius: 12px;
     background-color: white;
@@ -43,11 +43,76 @@
 }
 
 .name-box{
-    border: 0.5px solid black;
+    border: 1px solid blue;
     height: 40px;
     width: 370px;
     border-radius: 8px;
 }
 
+.register-button{
+    border: 0.5px solid blue;
+    height: 40px;
+    width: 370px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
 
+.address-box{
+    border: 0.5px solid black;
+    height: 60px;
+    width: 370px;
+    border-radius: 8px;
+}
+
+input[type="text"]{
+    font-family: Assistant,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input[type="password"]{
+    font-family: Assistant,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input[type="email"]{
+    font-family: Assistant,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input[type="tel"]{
+    font-family: Assistant,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+input[type="file"]{
+    width: 370px;
+    height: 45px;
+    padding: 8px;
+    border: 0.5px solid blue;
+    border-radius: 8px;
+    background-color: white;
+    font-family: Assistant,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+    color: rgb(112, 112, 112);
+}
+
+.signup-loginbox{
+    text-align: center;
+    font-family: Assistant,sans-serif;
+    font-size: 13px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    outline: none;
+}
 

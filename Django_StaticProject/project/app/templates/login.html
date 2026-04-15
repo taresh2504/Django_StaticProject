@@ -1,0 +1,36 @@
+{% load static %}
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% endblock css %} 
+
+{% block content %}
+
+<div class="main-box">
+    <div class="login-box">
+        <br>
+        <p class="overlays-title">Overlays</p>
+        <!-- <br> -->
+        <h1 class="signup-title">Log in</h1>
+
+        <form action="" method="post" class="form-box">
+
+            <input type="email" class="name-box" name="email" placeholder="Enter Email" required><br><br>
+
+            <input class="name-box" type="password" name="password" placeholder="Enter Password" required><br><br>
+
+            <input type="submit" class="register-button" value="Login">
+        </form>
+
+        <br>
+        <div class="signup-loginbox">
+        <p>Don't have an account? Go Signup first <a href="{% url 'signup' %}">Signup</a> </p>
+        </div>
+
+    </div>
+
+</div>
+
+
+
+{% endblock content %}

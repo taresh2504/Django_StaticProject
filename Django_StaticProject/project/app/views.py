@@ -10,6 +10,9 @@ def account(req):
 def signup(req):
     return render(req,'signup.html')
 
+def login(req):
+    return render(req,'login.html')
+
 def search(req):
     return render(req,'landing.html',{'search':True})
 
