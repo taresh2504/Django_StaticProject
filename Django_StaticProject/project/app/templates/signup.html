@@ -8,9 +8,7 @@
 
 <div class="main-box">
     <div class="signup-box">
-        <br>
         <p class="overlays-title">Overlays</p>
-        <!-- <br> -->
         <h1 class="signup-title">Sign in</h1>
         <div>
             <p class="signup-line">Sign in or create an account</p>
@@ -23,13 +21,13 @@
 
     <input type="tel" class="name-box" name="contact" placeholder="Enter Contact Number" required><br><br>
 
-    <input type="text" class="name-box"name="address" placeholder="Enter Address" rows="3" required></input><br><br>
+    <textarea class="address-box" name="address" placeholder="Enter Address" required></textarea><br><br>
 
-    <input  type="file" name="photo" required><br><br>
+    <input  type="file" class="image-file" name="photo" required><br><br>
 
-    <input class="name-box" type="password" name="password" placeholder="Enter Password" required><br><br>
+    <input class="name-box" type="password" name="password" minlength="8" maxlength="15" placeholder="Enter Password" required><br><br>
 
-    <input class="name-box" type="password" name="confirm_password" placeholder="Confirm Password" required><br><br>
+    <input class="name-box" type="password" name="confirm_password" minlength="8" maxlength="15" placeholder="Confirm Password" required><br><br>
 
     <input type="submit" class="register-button" value="Register">
 

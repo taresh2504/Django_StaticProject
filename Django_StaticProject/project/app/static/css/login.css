@@ -73,3 +73,10 @@ input:focus {
     font-family: Assistant,sans-serif;
     font-size: 13px;
 }
+
+.forgotpassword-box{
+    text-align: center;
+    font-family: Assistant,sans-serif;
+    font-size: 13px;
+    color: blueviolet;
+}

@@ -23,15 +23,15 @@
 }
 
 .signup-title{
-    font-size: 21px;
+    font-size: 18px;
     font-weight: 550;
     font-family: Assistant,sans-serif;
     margin-left: 38px;
 }
 
 .signup-line{
-    font-size: 14px;
-    font-weight: lighter;
+    font-size: 13px;
+    font-weight: bold;
     font-style: normal;
     font-family: Assistant,sans-serif;
     margin-left: 38px;
@@ -44,9 +44,17 @@
 
 .name-box{
     border: 1px solid blue;
-    height: 40px;
+    height: 35px;
     width: 370px;
     border-radius: 8px;
+    font-family: Assistant,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.name-box:focus{
+    border: 1px solid blue;
+    outline: none;
 }
 
 .register-button{
@@ -61,39 +69,25 @@
 }
 
 .address-box{
-    border: 0.5px solid black;
-    height: 60px;
+    border: 1px solid blue;
+    height: 60px;          /* fixed height */
     width: 370px;
     border-radius: 8px;
-}
-
-input[type="text"]{
+    padding: 8px;
+    resize: none;          /* ❌ user resize nahi kar payega */
     font-family: Assistant,sans-serif;
     font-size: 14px;
-    font-weight: 400;
 }
 
-input[type="password"]{
-    font-family: Assistant,sans-serif;
-    font-size: 14px;
-    font-weight: 400;
+.address-box:focus{
+    border: 1px solid blue;
+    outline: none;
 }
 
-input[type="email"]{
-    font-family: Assistant,sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-}
 
-input[type="tel"]{
-    font-family: Assistant,sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-}
-
-input[type="file"]{
+.image-file{
     width: 370px;
-    height: 45px;
+    height: 40px;
     padding: 8px;
     border: 0.5px solid blue;
     border-radius: 8px;
@@ -111,8 +105,5 @@ input[type="file"]{
     font-size: 13px;
 }
 
-input:focus {
-    border: 1px solid blue;
-    outline: none;
-}
+
 
