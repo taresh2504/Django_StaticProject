@@ -948,6 +948,9 @@
     font-style: normal;
 }
 
+
+
+
 .cartbox-shoppingbutton{
     margin-top: -3px;
     border: 1px solid lightgray;
@@ -964,6 +967,10 @@
     margin-left: 111.2px;
 }
 
+
+
+
+
 .offer-bar {
     margin-top: 4px;
     height: 23.6px;
@@ -975,11 +982,17 @@
     z-index: 1;
 }
 
+
+
+
 .offer-track {
     display: flex;
     width: max-content;
     animation: scroll 5s linear infinite;
 }
+
+
+
 
 .offer-content {
     display: flex;
