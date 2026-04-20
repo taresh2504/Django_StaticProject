@@ -674,12 +674,7 @@
     /* margin-top: 10.5px; */
 }
 
-/* .product-carda{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-} */
+
 
 .product-img1{
     height: 181px;
@@ -719,12 +714,16 @@
     color: grey;
 }
 
+
+
 .product-cardnewprice{
     font-size: 12px;
     font-weight: 400;
     font-family: Assistant,sans-serif;
     color: black;
 }
+
+
 
 
 .account-box{
