@@ -81,13 +81,6 @@
     width: 20px;
 }
 
-/* .hover-box{
-    display: block;
-    border: 0px solid white;
-    margin-top: 29px;
-    height: 454.663px;
-    width: 99.9%;
-} */
 
 .hover-box{
     display: none;
@@ -99,10 +92,7 @@
     z-index: 999;
 }
 
-/* .navbar-container:has(.category-item:hover) .hover-box,
-.hover-box:hover{
-    display: block;
-} */
+
 
 .cloth-box{
     border: 0px solid white;
