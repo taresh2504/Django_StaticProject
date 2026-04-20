@@ -726,13 +726,6 @@
     color: black;
 }
 
-/* .account-box{
-    border: 1px solid black;
-    height: 241.8px;
-    width: 352px;
-    border-radius: 14px;
-    margin-top: 8px;
-} */
 
 .account-box{
     position: fixed;      /* overlay */
@@ -801,6 +794,8 @@
     margin-top: -15px;
 }
 
+
+
 .other-signup{
     font-size: 12px;
     font-weight: 500;
@@ -809,6 +804,8 @@
     color: white;
     text-decoration: none;
 }
+
+
 
 .account-order-box{
     border: 1px solid white;
@@ -1000,6 +997,10 @@
     padding-top: 2.5px;
 }
 
+
+
+
+
 .offer-dot{
     display: block;
     font-size: 14px;
@@ -1009,9 +1010,6 @@
     margin-top: -4px;
     color: lightgray;
 }
-
-
-
 
 
 .offer-content span {
