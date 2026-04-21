@@ -68,11 +68,14 @@
     /* z-index: 9999; */
 }
 
+
+
 .hide-icons{
-    /* display: none !important; */
     visibility: hidden;
     pointer-events: none;
 }
+
+
 
 .icon{
     display: block;
@@ -122,8 +125,6 @@
     font-family: Assistant,sans-serif;
     font-size: 15px;
     font-weight: 800;
-    /* height: 25.0625px;
-    width: 54.4px; */
     font-style: normal;
     text-decoration: none;
 }
@@ -152,7 +153,6 @@
     list-style-position: outside;
     text-decoration-style: solid;
     text-decoration-thickness: auto;
-    /* text-wrap-mode: wrap; */
 }
 
 .tshirtcategory :hover{
@@ -423,6 +423,9 @@
     font-weight: bold;
 }
 
+
+
+
 .knit{
     margin-left: 20px;
     color: #cb4625;
@@ -430,6 +433,9 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
+
 
 .distressed{
     margin-left: 19px;
