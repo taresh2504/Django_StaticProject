@@ -28,17 +28,12 @@
     font-style: normal;
     font-weight: 400;
     text-transform: none;
-    /* text-underline-offset: 2.25px;
-    line-height: 30.0857px; */
-    /* text-wrap-mode: nowrap; */
 }
 
 .nav-logo{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-left: -50px; */
-    /* margin-top: -5%;   yahi gap de raha hai */
 }
 
 .logo{
@@ -48,8 +43,6 @@
     margin-left: -486.5px;
     margin-top: -22.5px;
     margin-right: -625px;
-    /* margin-top: -6.5%; */
-    /* margin-top: -140px; */
     cursor: pointer;
 }
 
@@ -58,14 +51,10 @@
     justify-content: end;
     align-items: end;
     gap: 70.5%;
-    /* margin-top: -4.3%; */
     margin-top: -13.5px;
-    /* padding-left: 440.5px; */
     padding-right: -440px;
     padding-left: 760px;
-    /* position: relative; */
     position: relative;
-    /* z-index: 9999; */
 }
 
 
@@ -186,8 +175,6 @@
     font-family: Assistant,sans-serif;
     font-size: 15px;
     font-weight: 800;
-    /* height: 25.0625px;
-    width: 54.4px; */
     font-style: normal;
     text-decoration: none;
     margin-top: 30px;
@@ -204,7 +191,6 @@
 }
 
 .other-list{
-    /* color: rgb(203, 70, 37); */
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -217,8 +203,6 @@
     font-family: Assistant,sans-serif;
     font-size: 15px;
     font-weight: 800;
-    /* height: 25.0625px;
-    width: 54.4px; */
     font-style: normal;
     text-decoration: none;
     list-style: none;
