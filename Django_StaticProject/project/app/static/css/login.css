@@ -7,6 +7,8 @@
     align-items: center;
 }
 
+
+
 .login-box{
     border: 0.800px solid blue;
     height: 400.400px;
@@ -21,11 +23,15 @@ input[type="email"]{
     font-weight: 400;
 }
 
+
+
 input[type="password"]{
     font-family: Assistant,sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
+
+
 
 .overlays-title{
     font-size: 21px;
@@ -33,6 +39,8 @@ input[type="password"]{
     font-family: Assistant,sans-serif;
     text-align: center;
 }
+
+
 
 .signup-title{
     font-size: 21px;

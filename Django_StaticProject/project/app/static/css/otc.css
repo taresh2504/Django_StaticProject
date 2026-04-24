@@ -141,10 +141,7 @@
     background-color: lightgray;
 }
 
-/* .size-button:checked{
-    background-color: black;
-    color: white;
-} */
+
 
 .selecting-size{
     border: 1px solid rgb(255, 112, 0);
@@ -192,6 +189,8 @@
     border-radius: 50%;
 }
 
+
+
 .i{
     font-size: 12px;
     text-align: center;
@@ -204,6 +203,8 @@
     border-radius: 50%;
 }
 
+
+
 .size-chart{
     font-size: 12px;
     font-family: Assistant,sans-serif;
@@ -211,6 +212,8 @@
     font-style: normal;
     color: rgba(0, 0, 0, 0.81);
 }
+
+
 
 .sizechart-image{
     width: 280px;

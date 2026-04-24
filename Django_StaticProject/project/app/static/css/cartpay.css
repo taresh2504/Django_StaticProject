@@ -11,10 +11,13 @@
     border-bottom-left-radius: 11px; 
 }
 
+
+
 .cartmain-box{
     display: block; 
 } 
     
+
 .cart-holder{
     border: 1px solid none;
     height: 44px;
@@ -26,10 +29,12 @@
     gap: 280px;
 }
 
+
 .cart-name{
     font-size: 16px;
     margin-top: -5px;
 }
+
 
 .cart-holder #cross-mark{
     font-size: 15px;
