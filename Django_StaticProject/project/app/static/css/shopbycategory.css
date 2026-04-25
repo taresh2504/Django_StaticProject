@@ -7,6 +7,8 @@
     align-items: center;
 }
 
+
+
 .left-filterbox{
     border: 1px solid black;
     height: 40px;
@@ -17,19 +19,25 @@
     align-items: center;
     gap: 15px;
     margin-left: 18px;
-    /* border-radius: 20px; */
 }
+
+
 
 .filter{
 position:relative;
 cursor:pointer;
 }
 
+
+
 .filter-btn{
 display:flex;
 align-items:center;
 gap:6px;
 }
+
+
+
 
 .price{
     font-size: 12px;
@@ -151,17 +159,6 @@ z-index:10;
 
 
 
-/* .producttype-checkboxholder{
-    border: 1px solid black;
-    height: 130.2px;
-    width: 120px;
-    border-radius: 15px;
-    margin-top: 51px;
-    margin-left: -116px;
-
-    display: flex;
-    flex-direction: column;
-} */
 
 .producttype-checkboxholder{
     border: 1px solid black;

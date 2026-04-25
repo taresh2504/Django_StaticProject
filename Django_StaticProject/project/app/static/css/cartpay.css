@@ -126,11 +126,15 @@
     padding-left: 37px;
 }
 
+
+
 #garbage{
     text-align: right;
     font-size: 12px;
     padding-left: 80px;
 }
+
+
 
 .total-block{
     border: 1px solid white;
@@ -142,6 +146,8 @@
     align-items: center;
 }
 
+
+
 .subtotal{
     font-size: 16px;
     font-weight: 800;
@@ -149,6 +155,8 @@
     font-family: Assistant,sans-serif;
     color: rgba(0, 0, 0, 0.81);
 }
+
+
 
 .buy-button{
     border: 0.5px solid rgb(255, 112, 0);
@@ -159,6 +167,8 @@
     color: white;
     background-color: rgb(255, 112, 0);
 }
+
+
 
 .return-line{
     text-align: center;
