@@ -5,12 +5,14 @@
     gap: -5.5px;
 }
 
+
 .tshirt-box{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5px;
 }
+
 
 .round-image-box{
     border: 1px solid none;
@@ -19,12 +21,14 @@
     cursor: pointer;
 }
 
+
 .round-image-box2{
     border: 1px solid none;
     height: 91.6px;
     width: 80.6px;
     cursor: pointer;
 }
+
 
 .round-photos{
     box-sizing: border-box;
@@ -45,6 +49,7 @@
     text-align: center;
 }
 
+
 .oversizedtshirt-content{
     box-sizing: border-box;
     line-height: 19.6px;
@@ -62,12 +67,16 @@
     text-underline-offset: 1.5px;
 }
 
+
+
 .pants-box{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 0.5px;
 }
+
+
 
 .movement-box{
     border: 1px solid black;
@@ -76,11 +85,15 @@
     margin-top: 10px;
 }
 
+
+
 .uservisit-box{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
 
 .user-visit{
     border: 1px solid none;
@@ -89,9 +102,13 @@
     margin-top: 27px;
 }
 
+
+
 .customers-photo{
     margin-left: 124px;
 }
+
+
 
 .customer-content{
     font-size: 12px;
@@ -102,10 +119,14 @@
     text-align: center;
 }
 
+
+
 .train-wrapper{
     overflow: hidden;
     width: 100%;
 }
+
+
 
 .summer-escapeboxholder{
     display: flex;
@@ -114,6 +135,8 @@
     animation: trainMove 8s linear infinite;
     cursor: pointer;
 }
+
+
 
 /* hover pe stop */
 .summer-escapeboxholder:hover{
@@ -141,6 +164,8 @@
     animation: trainMove 8s linear infinite reverse;
     cursor: pointer;
 }
+
+
 
 /* hover pe stop */
 .summer-escapeboxholder2:hover{
@@ -206,6 +231,8 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+
 
 .cut-price{
     font-size: 14px;
@@ -335,12 +362,13 @@
 }
 
 .overlaysfeed-box{
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
 }
+
+
 
 .community-squad{
     border: 0px solid none;
@@ -353,6 +381,7 @@
     margin-top: 20px;
 }
 
+
 .csimg-box{
     border: 0px solid none;
     height: 136px;
@@ -360,6 +389,8 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+
 
 .slider{
     position: relative;
