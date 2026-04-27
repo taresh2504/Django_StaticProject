@@ -229,16 +229,22 @@
     color: rgba(0, 0, 0, 0.81);
 }
 
+
+
 .product-desc2{
     font-size: 12px;
     font-family: Assistant,sans-serif;
 }
+
+
 
 .uservisit-box{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
+
 
 .user-visit{
     border: 1px solid none;
@@ -247,9 +253,13 @@
     margin-top: 27px;
 }
 
+
+
 .customers-photo{
     margin-left: 124px;
 }
+
+
 
 .customer-content{
     font-size: 12px;
@@ -260,6 +270,8 @@
     text-align: center;
 }
 
+
+
 .tested-by{
     font-size: 32px;
     font-family: Assistant,sans-serif;
@@ -269,9 +281,12 @@
     text-align: center;
 }
 
+
+
 .container{
     text-align: center;
 }
+
 
 .testing-companies{
     display: flex;

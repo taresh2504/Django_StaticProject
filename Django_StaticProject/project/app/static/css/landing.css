@@ -30,6 +30,7 @@
 }
 
 
+
 .round-photos{
     box-sizing: border-box;
     height: 62px;
@@ -152,10 +153,14 @@
     }
 }
 
+
+
 .train-wrapper2{
     overflow: hidden;
     width: 100%;
 }
+
+
 
 .summer-escapeboxholder2{
     display: flex;
@@ -172,14 +177,20 @@
     animation-play-state: paused;
 }
 
-@keyframes trainMove{
+
+
+
+/* @keyframes trainMove{
     from{
         transform: translateX(0);
     }
     to{
         transform: translateX(-50%);
     }
-}
+} */
+
+
+
 
 .new-launch{
     font-size: 32px;

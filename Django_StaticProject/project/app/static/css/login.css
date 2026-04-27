@@ -17,6 +17,8 @@
     background-color: white;
 }
 
+
+
 input[type="email"]{
     font-family: Assistant,sans-serif;
     font-size: 14px;
@@ -49,9 +51,12 @@ input[type="password"]{
     margin-left: 38px;
 }
 
+
+
 .form-box{
     margin-left: 38px;
 }
+
 
 .name-box{
     border: 1px solid blue;
@@ -59,6 +64,7 @@ input[type="password"]{
     width: 370px;
     border-radius: 8px;
 }
+
 
 .register-button{
     border: 0.5px solid blue;
@@ -71,10 +77,12 @@ input[type="password"]{
     cursor: pointer;
 }
 
+
 input:focus {
     border: 1px solid blue;
     outline: none;
 }
+
 
 .signup-loginbox{
     text-align: center;
