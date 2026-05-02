@@ -98,11 +98,14 @@
     margin-left: 23px;
 }
 
+
 .size-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .size-name{
     font-size: 12px;
@@ -124,7 +127,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 5px; */
 }
 
 .size-button{
@@ -175,12 +177,14 @@
     width: 20px;
 }
 
+
 .returnline-title{
     font-size: 12px;
     font-family: Assistant,sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
 
 .round-i{
     border: 1px solid black;
@@ -272,6 +276,7 @@
 
 
 
+
 .tested-by{
     font-size: 32px;
     font-family: Assistant,sans-serif;
@@ -286,6 +291,7 @@
 .container{
     text-align: center;
 }
+
 
 
 .testing-companies{
