@@ -172,10 +172,8 @@ z-index:10;
     border-radius: 15px;
     margin-top: 51px;
     margin-left: -116px;
-
     display: flex;
     flex-direction: column;
-
     position: relative;   /* ADD THIS */
 }
 

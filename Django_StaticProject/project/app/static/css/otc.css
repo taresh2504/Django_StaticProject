@@ -4,8 +4,8 @@
     height: 1314.12px;
     display: flex;
     justify-content: space-around;
-    
 }
+
 
 .image-box{
     border: 1px solid none;
@@ -14,6 +14,7 @@
     margin-top: 5px;
     margin-left: -60px;
 }
+
 
 .empty-gap{
     margin-top: 5px;
@@ -30,6 +31,8 @@
 
 }
 
+
+
 .list-image{
     border: 1px solid none;
     width:465.200px;
@@ -38,11 +41,15 @@
     aspect-ratio:0.666667 / 1;
 }
 
+
+
 .image{
     object-fit: contain;
     object-position: 50% 50%;
     aspect-ratio:0.666667 / 1;
 }
+
+
 
 .clothes-infobox{
     border: 1px solid none;
@@ -50,6 +57,8 @@
     height: 1500px;
     margin-top: 5px;
 }
+
+
 
 .itemname-container{
     border: 0.5px solid none;
@@ -59,9 +68,13 @@
     justify-content: space-between;
 }
 
+
+
 .price-container{
     text-align: right;
 }
+
+
 
 .dress-name{
     font-size: 16px;
@@ -71,6 +84,8 @@
     font-style: normal;
 }
 
+
+
 .dressold-price{
     font-size: 16px;
     font-family: Assistant,sans-serif;
@@ -79,6 +94,8 @@
     font-style: normal;
     text-align: right;
 }
+
+
 
 .all-taxes{
     font-size: 16px;
@@ -157,6 +174,7 @@
     font-weight: 900;
     font-style: normal;
 }
+
 
 .selecting-size:hover{
     background-color: white;
