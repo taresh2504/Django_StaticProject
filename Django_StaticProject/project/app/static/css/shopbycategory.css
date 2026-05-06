@@ -163,8 +163,6 @@ z-index:10;
 }
 
 
-
-
 .producttype-checkboxholder{
     border: 1px solid black;
     height: 130.2px;
@@ -176,7 +174,6 @@ z-index:10;
     flex-direction: column;
     position: relative;   /* ADD THIS */
 }
-
 
 
 .producttype-checkbox{
