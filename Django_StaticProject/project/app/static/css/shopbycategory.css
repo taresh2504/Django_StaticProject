@@ -49,6 +49,8 @@ gap:6px;
 }
 
 
+
+
 #arrow{
 transition:0.2s;
 font-size:12px;
@@ -61,6 +63,9 @@ cursor: pointer;
 transform:rotate(180deg);
 }
 
+
+
+
 .dropdown{
 display:none;
 position:absolute;
@@ -69,6 +74,9 @@ left: 0;
 padding:40px;
 z-index:10;
 }
+
+
+
 
 .dropdown-box{
     border: 1px solid white;
@@ -82,6 +90,8 @@ z-index:10;
     gap: 12.8px;
     margin-left: -20px;
 }
+
+
 
 
 .price-rupee{
@@ -99,6 +109,8 @@ z-index:10;
 }
 
 
+
+
 .to{
     font-size: 12px;
     font-family: Assistant,sans-serif;
@@ -106,6 +118,8 @@ z-index:10;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.81);
 }
+
+
 
 
 .price-rupee2{
@@ -123,6 +137,8 @@ z-index:10;
 }
 
 
+
+
 .dropdownbox2{
     border: 1px solid white;
     height: 24.8px;
@@ -132,6 +148,8 @@ z-index:10;
     border-bottom-right-radius: 15px;
     margin-left: -20px;
 }
+
+
 
 
 .high-price{

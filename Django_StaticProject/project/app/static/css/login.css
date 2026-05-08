@@ -7,6 +7,8 @@
     align-items: center;
 }
 
+
+
 .login-box{
     border: 0.800px solid blue;
     height: 400.400px;
@@ -41,9 +43,11 @@ input[type="password"]{
     margin-left: 38px;
 }
 
+
 .form-box{
     margin-left: 38px;
 }
+
 
 .name-box{
     border: 1px solid blue;
@@ -51,6 +55,7 @@ input[type="password"]{
     width: 370px;
     border-radius: 8px;
 }
+
 
 .register-button{
     border: 0.5px solid blue;
@@ -75,6 +80,7 @@ input:focus {
     font-family: Assistant,sans-serif;
     font-size: 13px;
 }
+
 
 
 .forgotpassword-box{
