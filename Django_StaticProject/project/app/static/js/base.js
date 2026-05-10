@@ -92,25 +92,4 @@ document.addEventListener("DOMContentLoaded", function(){
     setupProductHover('.product-card4', '.product-img4',
         "/static/images/img6b.jpg", "/static/images/img6.jpg");
 
-    // 🔹 SEARCH BOX (MAIN FIX)
-
-//     const searchBtn = document.getElementById("search-logo");
-//     const searchBox = document.querySelector(".search-box");
-
-//     if(searchBtn && searchBox){
-
-//         searchBtn.addEventListener("click", function(e){
-//             e.stopPropagation();
-//             searchBox.style.display = "block";
-//         });
-
-//         document.addEventListener("click", function(){
-//             searchBox.style.display = "none";
-//         });
-
-//         searchBox.addEventListener("click", function(e){
-//             e.stopPropagation();
-//         });
-//     }
-
 });
