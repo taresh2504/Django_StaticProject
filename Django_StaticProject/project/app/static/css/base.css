@@ -249,19 +249,21 @@
 }
 
 
-
-
 .img1{
     height: 320px;
     width: 213px;
     cursor: pointer;
 }
 
+
+
 .img2{
     height: 320px;
     width: 213px;
     cursor: pointer;
 }
+
+
 
 .img1-content{
     font-family: Assistant,sans-serif;
@@ -273,6 +275,8 @@
     text-decoration: none;
 }
 
+
+
 .img2-content{
     font-family: Assistant,sans-serif;
     font-size: 12px;
@@ -283,6 +287,8 @@
     text-decoration: none;
 }
 
+
+
 .img1-pricecut{
     font-family: Assistant,sans-serif;
     font-size: 12px;
@@ -292,6 +298,8 @@
     cursor: pointer;
 }
 
+
+
 .img2-pricecut{
     font-family: Assistant,sans-serif;
     font-size: 12px;
@@ -300,6 +308,8 @@
     color: rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
+
+
 
 .hover-box2{
     border: 1px solid white;
@@ -314,11 +324,15 @@
     z-index: 999;
 }
 
+
+
 .row1{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .row1-list{
     display: flex;
@@ -333,12 +347,16 @@
     /* color: #cb4625; */
 }
 
+
+
 .drift{
     color: #cb4625;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
 }
+
+
 
 .claw{
     margin-left: -55px;
@@ -348,6 +366,8 @@
     font-weight: bold;
 }
 
+
+
 .wild{
     margin-left: -50px;
     color: #cb4625;
@@ -355,6 +375,8 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
 
 .root{
     margin-left: 42px;
@@ -364,6 +386,8 @@
     font-weight: bold;
 }
 
+
+
 .spring{
     margin-left: 10px;
     color: #cb4625;
@@ -372,6 +396,8 @@
     font-weight: bold;
 }
 
+
+
 .ember{
     color: #cb4625;
     text-decoration: none;
@@ -379,11 +405,15 @@
     font-weight: bold;
 }
 
+
+
 .row2{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
 .row2-list{
     display: flex;
@@ -398,11 +428,12 @@
     margin-top: -1px;
 }
 
+
+
 .row3-list{
     display: flex;
     justify-content: start;
     align-items: center;
-    /* gap: 75px; */
     list-style: none;
     font-family: Assistant,sans-serif;
     font-size: 15px;
@@ -410,12 +441,16 @@
     cursor: pointer;
 }
 
+
+
 .majestic{
     color: #cb4625;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
 }
+
+
 
 .conqueor{
     margin-top: 20px;
@@ -427,6 +462,8 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
 
 .summer{
     margin-left: -2px;
